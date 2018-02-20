@@ -1,0 +1,480 @@
+\hypertarget{class_drooni}{\section{Drooni Class Reference}
+\label{class_drooni}\index{Drooni@{Drooni}}
+}
+Inheritance diagram for Drooni\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_drooni}
+\end{center}
+\end{figure}
+\subsection*{Public Slots}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{class_drooni_a13704789c83b2a871aa9ae0a0b8344f0}{ala\-Liikkua\-Eteen} ()
+\begin{DoxyCompactList}\small\item\em ala\-Liikkua\-Eteen Laittaa droonin liikkumaan eteenpäin kunnes liike lopetetaan. \end{DoxyCompactList}\item 
+void \hyperlink{class_drooni_a00017b1e9eb860c06d4422d7a60a0809}{ala\-Liikkua\-Taakse} ()
+\begin{DoxyCompactList}\small\item\em ala\-Liikkua\-Taakse Laittaa droonin liikkumaan taaksepäin kunnes liike lopetetaan. \end{DoxyCompactList}\item 
+void \hyperlink{class_drooni_ad1a61ea9bd674ad83267ea9259d3a807}{ala\-Kaantya\-Myota} ()
+\begin{DoxyCompactList}\small\item\em ala\-Kaantya\-Myota Laittaa droonin kääntymään myötäpäivään kunnes kääntyminen lopetetaan. \end{DoxyCompactList}\item 
+void \hyperlink{class_drooni_ad6bbe6b848b5e3c52afcf6b13258dc4b}{ala\-Kaantya\-Vasta} ()
+\begin{DoxyCompactList}\small\item\em ala\-Kaantya\-Vasta Laittaa droonin kääntymään vastapäivään kunnes kääntyminen lopetetaan. \end{DoxyCompactList}\item 
+void \hyperlink{class_drooni_ae27475e5b09619e4b635b5109f9378f9}{lopeta\-Eteen\-Liikkuminen} ()
+\begin{DoxyCompactList}\small\item\em lopeta\-Eteen\-Liikkuminen Lopettaa droonin eteenpäin liikkumisen. \end{DoxyCompactList}\item 
+void \hyperlink{class_drooni_ab44ae640ee3c0d47839188e0d4946d34}{lopeta\-Taakse\-Liikkuminen} ()
+\begin{DoxyCompactList}\small\item\em lopeta\-Taakse\-Liikkuminen Lopettaa droonin taaksepäin liikkumisen. \end{DoxyCompactList}\item 
+void \hyperlink{class_drooni_ab849dde58e4cadd190f694b0610e2215}{lopeta\-Kaannos\-Myota} ()
+\begin{DoxyCompactList}\small\item\em lopeta\-Kaannos\-Myota Lopettaa droonin kääntymisen myötäpäivään. \end{DoxyCompactList}\item 
+void \hyperlink{class_drooni_a269a91622768bd2c56ac1b2a94151420}{lopeta\-Kaannos\-Vasta} ()
+\begin{DoxyCompactList}\small\item\em lopeta\-Kaannos\-Vasta Lopettaa droonin kääntymisen vastapäivään. \end{DoxyCompactList}\item 
+void \hyperlink{class_drooni_ac4a9ca011049c1098aa462a7d773c03b}{ammu} ()
+\begin{DoxyCompactList}\small\item\em ammu luo uuden valitun aseen ammuksen ja lisää sen samaan Q\-Graphics\-Scenee droonin kanssa. \end{DoxyCompactList}\item 
+void \hyperlink{class_drooni_acc75f5e60f161b914dd6265e59783660}{valitse\-Rynkky} ()
+\begin{DoxyCompactList}\small\item\em valitse\-Rynkky valitsee rynnäkkökiväärin aktiiviseksi aseeksi. \end{DoxyCompactList}\item 
+void \hyperlink{class_drooni_a3d70e2dcad21eed191d622b573f76012}{valitse\-Miina} ()
+\begin{DoxyCompactList}\small\item\em valitse\-Miina valitsee maamiinan aktiiviseksi aseeksi. \end{DoxyCompactList}\item 
+void \hyperlink{class_drooni_aaf79cb0fc772cb706a190c7ce7e1c893}{valitse\-Laser} ()
+\begin{DoxyCompactList}\small\item\em valitse\-Laser valitsee laserin aktiiviseksi aseeksi. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Signals}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{class_drooni_a3020c56fa8b0d3bfe6c1fff40df4ab2d}{drooni\-Liikkunut} (Q\-Graphics\-Item $\ast$drooni)
+\begin{DoxyCompactList}\small\item\em drooni\-Liikkunut signaali lähetetään aina kun drooni on liikkunut. \end{DoxyCompactList}\item 
+void \hyperlink{class_drooni_a60161e48737707a81e74982c545b8a5d}{drooni\-Ampunut} (short int ase, short int ammuksia\-\_\-jaljella)
+\begin{DoxyCompactList}\small\item\em drooni\-Ampunut signaali lähetetään aina kun drooni on ampunut. \end{DoxyCompactList}\item 
+\hypertarget{class_drooni_a7ba9264caa5365a27f51035dd2892860}{void \hyperlink{class_drooni_a7ba9264caa5365a27f51035dd2892860}{ammukset\-Lopussa} ()}\label{class_drooni_a7ba9264caa5365a27f51035dd2892860}
+
+\begin{DoxyCompactList}\small\item\em ammukset\-Lopussa signaali lähetetään kun droonin ammukset ovat lopussa. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_drooni_a7198c6e1b9677978754f2b65804cdc6f}{Drooni} (Q\-Graphics\-Item $\ast$parent=N\-U\-L\-L)
+\begin{DoxyCompactList}\small\item\em Droonin rakentaja, luo uuden drooni olion. \end{DoxyCompactList}\item 
+virtual \hyperlink{class_drooni_a03b2d923119be2c5ee18fc70899aa2d8}{$\sim$\-Drooni} ()
+\begin{DoxyCompactList}\small\item\em $\sim$\-Drooni tuhoaa droonin. \end{DoxyCompactList}\item 
+void \hyperlink{class_drooni_ae3bbb3da2c280b4281dbcd064c4f23a5}{key\-Press\-Event} (Q\-Key\-Event $\ast$event)
+\begin{DoxyCompactList}\small\item\em key\-Press\-Event vastaanottaa olion saaman näppäimistösyötteen. Muuntaa nuolinäppäimet ja välilyönnin droonin liikkeiksi. Ei yleensä tarvitse kutsua itse. \end{DoxyCompactList}\item 
+void \hyperlink{class_drooni_a70338cca6bd668a3ef65938d10880ad2}{key\-Release\-Event} (Q\-Key\-Event $\ast$event)
+\begin{DoxyCompactList}\small\item\em key\-Release\-Event ks. key\-Press\-Event. \end{DoxyCompactList}\item 
+short int \hyperlink{class_drooni_ad825d329b1cb672145a4d01e732e5d1a}{ammuksia\-Jaljella} (int ase) const 
+\begin{DoxyCompactList}\small\item\em ammuksia\-Jaljella Kertoo paljonko kysytyssä aseessa on ammuksia jäljellä \end{DoxyCompactList}\item 
+\hypertarget{class_drooni_ac814aabc8942f6f3785f985143e66082}{virtual Rajapinta\-::\-Sijainti {\bfseries anna\-Sijainti} () const }\label{class_drooni_ac814aabc8942f6f3785f985143e66082}
+
+\item 
+\hypertarget{class_drooni_a1eb6face0d1454af7f6c4386f8cbe456}{virtual void {\bfseries liiku} (Rajapinta\-::\-Sijainti sij)}\label{class_drooni_a1eb6face0d1454af7f6c4386f8cbe456}
+
+\item 
+\hypertarget{class_drooni_aa054670e7c126212f5684fa7be0a1ebf}{virtual bool {\bfseries onko\-Tuhottu} () const }\label{class_drooni_aa054670e7c126212f5684fa7be0a1ebf}
+
+\item 
+\hypertarget{class_drooni_a5bfb14c85e9d186a0f207fd62d7baa1d}{virtual void {\bfseries tuhoa} ()}\label{class_drooni_a5bfb14c85e9d186a0f207fd62d7baa1d}
+
+\item 
+void \hyperlink{class_drooni_aea58ffdb85ce0db9e4778e0bdf8aea11}{liiku\-Sulavasti} (Rajapinta\-::\-Sijainti sij)
+\begin{DoxyCompactList}\small\item\em liiku\-Sulavasti Laittaa droonin liikkumaan sulavasti kohti annettua sijaintia. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_drooni_a9e229d50972415a7d6cef679a6935f07}{Q\-Timer $\ast$ {\bfseries animaatioajastin}}\label{class_drooni_a9e229d50972415a7d6cef679a6935f07}
+
+\item 
+\hypertarget{class_drooni_aaf12601ff6c06afaf92e150b2e4a8741}{bool {\bfseries liikkuu\-Eteen}}\label{class_drooni_aaf12601ff6c06afaf92e150b2e4a8741}
+
+\item 
+\hypertarget{class_drooni_af963430a0c950d2a2a2635f449c80ca1}{bool {\bfseries liikkuu\-Taakse}}\label{class_drooni_af963430a0c950d2a2a2635f449c80ca1}
+
+\item 
+\hypertarget{class_drooni_a7ce57251ed439106608127008b683871}{bool {\bfseries kaantyy\-Vasemmalle}}\label{class_drooni_a7ce57251ed439106608127008b683871}
+
+\item 
+\hypertarget{class_drooni_a9419bf493ac63ff84aae5d4581e2266c}{bool {\bfseries kaantyy\-Oikealle}}\label{class_drooni_a9419bf493ac63ff84aae5d4581e2266c}
+
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_drooni_af597bf5f26942d3bdb3316386e0a187e}{void {\bfseries paint} (Q\-Painter $\ast$painter, const Q\-Style\-Option\-Graphics\-Item $\ast$option, Q\-Widget $\ast$widget)}\label{class_drooni_af597bf5f26942d3bdb3316386e0a187e}
+
+\item 
+\hypertarget{class_drooni_ae236c13bc1904e25640f1b2f8e7bfd53}{virtual Q\-Rect\-F {\bfseries bounding\-Rect} () const }\label{class_drooni_ae236c13bc1904e25640f1b2f8e7bfd53}
+
+\item 
+\hypertarget{class_drooni_a6551f75c1d307d3ef490606c7f4d2621}{virtual Q\-Variant {\bfseries item\-Change} (Graphics\-Item\-Change change, const Q\-Variant \&value)}\label{class_drooni_a6551f75c1d307d3ef490606c7f4d2621}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_drooni_a7198c6e1b9677978754f2b65804cdc6f}{\index{Drooni@{Drooni}!Drooni@{Drooni}}
+\index{Drooni@{Drooni}!Drooni@{Drooni}}
+\subsubsection[{Drooni}]{\setlength{\rightskip}{0pt plus 5cm}Drooni\-::\-Drooni (
+\begin{DoxyParamCaption}
+\item[{Q\-Graphics\-Item $\ast$}]{parent = {\ttfamily NULL}}
+\end{DoxyParamCaption}
+)}}\label{class_drooni_a7198c6e1b9677978754f2b65804cdc6f}
+
+
+Droonin rakentaja, luo uuden drooni olion. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em parent} & droonin vanhempi, mahdollista jättää määrittelemättä. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+-\/ 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+\hyperlink{class_drooni}{Drooni} on luotu ja valmis käytettäväksi. Poikkeustakuu\-: ?? 
+\end{DoxyPostcond}
+\hypertarget{class_drooni_a03b2d923119be2c5ee18fc70899aa2d8}{\index{Drooni@{Drooni}!$\sim$\-Drooni@{$\sim$\-Drooni}}
+\index{$\sim$\-Drooni@{$\sim$\-Drooni}!Drooni@{Drooni}}
+\subsubsection[{$\sim$\-Drooni}]{\setlength{\rightskip}{0pt plus 5cm}Drooni\-::$\sim$\-Drooni (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_drooni_a03b2d923119be2c5ee18fc70899aa2d8}
+
+
+$\sim$\-Drooni tuhoaa droonin. 
+
+\begin{DoxyPostcond}{Postcondition}
+drooni on tuhottu. 
+\end{DoxyPostcond}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_drooni_ad1a61ea9bd674ad83267ea9259d3a807}{\index{Drooni@{Drooni}!ala\-Kaantya\-Myota@{ala\-Kaantya\-Myota}}
+\index{ala\-Kaantya\-Myota@{ala\-Kaantya\-Myota}!Drooni@{Drooni}}
+\subsubsection[{ala\-Kaantya\-Myota}]{\setlength{\rightskip}{0pt plus 5cm}void Drooni\-::ala\-Kaantya\-Myota (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [slot]}}}\label{class_drooni_ad1a61ea9bd674ad83267ea9259d3a807}
+
+
+ala\-Kaantya\-Myota Laittaa droonin kääntymään myötäpäivään kunnes kääntyminen lopetetaan. 
+
+\begin{DoxyPrecond}{Precondition}
+-\/ 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+kaantyy\-Oikealle = true 
+\end{DoxyPostcond}
+\hypertarget{class_drooni_ad6bbe6b848b5e3c52afcf6b13258dc4b}{\index{Drooni@{Drooni}!ala\-Kaantya\-Vasta@{ala\-Kaantya\-Vasta}}
+\index{ala\-Kaantya\-Vasta@{ala\-Kaantya\-Vasta}!Drooni@{Drooni}}
+\subsubsection[{ala\-Kaantya\-Vasta}]{\setlength{\rightskip}{0pt plus 5cm}void Drooni\-::ala\-Kaantya\-Vasta (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [slot]}}}\label{class_drooni_ad6bbe6b848b5e3c52afcf6b13258dc4b}
+
+
+ala\-Kaantya\-Vasta Laittaa droonin kääntymään vastapäivään kunnes kääntyminen lopetetaan. 
+
+\begin{DoxyPrecond}{Precondition}
+-\/ 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+kaantyy\-Vasemmalle = true; 
+\end{DoxyPostcond}
+\hypertarget{class_drooni_a13704789c83b2a871aa9ae0a0b8344f0}{\index{Drooni@{Drooni}!ala\-Liikkua\-Eteen@{ala\-Liikkua\-Eteen}}
+\index{ala\-Liikkua\-Eteen@{ala\-Liikkua\-Eteen}!Drooni@{Drooni}}
+\subsubsection[{ala\-Liikkua\-Eteen}]{\setlength{\rightskip}{0pt plus 5cm}void Drooni\-::ala\-Liikkua\-Eteen (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [slot]}}}\label{class_drooni_a13704789c83b2a871aa9ae0a0b8344f0}
+
+
+ala\-Liikkua\-Eteen Laittaa droonin liikkumaan eteenpäin kunnes liike lopetetaan. 
+
+\begin{DoxyPrecond}{Precondition}
+-\/ 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+liikkuu\-Eteen = true 
+\end{DoxyPostcond}
+\hypertarget{class_drooni_a00017b1e9eb860c06d4422d7a60a0809}{\index{Drooni@{Drooni}!ala\-Liikkua\-Taakse@{ala\-Liikkua\-Taakse}}
+\index{ala\-Liikkua\-Taakse@{ala\-Liikkua\-Taakse}!Drooni@{Drooni}}
+\subsubsection[{ala\-Liikkua\-Taakse}]{\setlength{\rightskip}{0pt plus 5cm}void Drooni\-::ala\-Liikkua\-Taakse (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [slot]}}}\label{class_drooni_a00017b1e9eb860c06d4422d7a60a0809}
+
+
+ala\-Liikkua\-Taakse Laittaa droonin liikkumaan taaksepäin kunnes liike lopetetaan. 
+
+\begin{DoxyPrecond}{Precondition}
+-\/ 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+liikkuu\-Taakse = true 
+\end{DoxyPostcond}
+\hypertarget{class_drooni_ac4a9ca011049c1098aa462a7d773c03b}{\index{Drooni@{Drooni}!ammu@{ammu}}
+\index{ammu@{ammu}!Drooni@{Drooni}}
+\subsubsection[{ammu}]{\setlength{\rightskip}{0pt plus 5cm}void Drooni\-::ammu (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [slot]}}}\label{class_drooni_ac4a9ca011049c1098aa462a7d773c03b}
+
+
+ammu luo uuden valitun aseen ammuksen ja lisää sen samaan Q\-Graphics\-Scenee droonin kanssa. 
+
+\begin{DoxyPrecond}{Precondition}
+\hyperlink{class_drooni}{Drooni} kuuluu Q\-Graphics\-Sceneen ja ase on valituna. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+Uusi ammus on luotu ja lisätty Q\-Graphics\-Sceneen. Poikkeustakuu\-: vahva 
+\end{DoxyPostcond}
+\hypertarget{class_drooni_ad825d329b1cb672145a4d01e732e5d1a}{\index{Drooni@{Drooni}!ammuksia\-Jaljella@{ammuksia\-Jaljella}}
+\index{ammuksia\-Jaljella@{ammuksia\-Jaljella}!Drooni@{Drooni}}
+\subsubsection[{ammuksia\-Jaljella}]{\setlength{\rightskip}{0pt plus 5cm}short Drooni\-::ammuksia\-Jaljella (
+\begin{DoxyParamCaption}
+\item[{int}]{ase}
+\end{DoxyParamCaption}
+) const}}\label{class_drooni_ad825d329b1cb672145a4d01e732e5d1a}
+
+
+ammuksia\-Jaljella Kertoo paljonko kysytyssä aseessa on ammuksia jäljellä 
+
+
+\begin{DoxyParams}{Parameters}
+{\em ase} & Aseen, jonka ammustiedot halutaan, numero. 1 = R\-K, 2 = Maamiina, 3 = \hyperlink{class_laser}{Laser} \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Jäljellä olevien ammusten lukumäärä 
+\end{DoxyReturn}
+\begin{DoxyPrecond}{Precondition}
+ase on välillä \mbox{[}0,2\mbox{]} 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+Poikkeustakuu\-: vahva 
+\end{DoxyPostcond}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Peli\-Virhe} & mikäli aseen tietoja ei löydy \\
+\hline
+\end{DoxyExceptions}
+\hypertarget{class_drooni_a60161e48737707a81e74982c545b8a5d}{\index{Drooni@{Drooni}!drooni\-Ampunut@{drooni\-Ampunut}}
+\index{drooni\-Ampunut@{drooni\-Ampunut}!Drooni@{Drooni}}
+\subsubsection[{drooni\-Ampunut}]{\setlength{\rightskip}{0pt plus 5cm}void Drooni\-::drooni\-Ampunut (
+\begin{DoxyParamCaption}
+\item[{short int}]{ase, }
+\item[{short int}]{ammuksia\-\_\-jaljella}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [signal]}}}\label{class_drooni_a60161e48737707a81e74982c545b8a5d}
+
+
+drooni\-Ampunut signaali lähetetään aina kun drooni on ampunut. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em ase} & Ampumiseen käytetty ase. \\
+\hline
+{\em ammuksia\-\_\-jaljella} & Aseen jäljellä oleva ammusmäärä. \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_drooni_a3020c56fa8b0d3bfe6c1fff40df4ab2d}{\index{Drooni@{Drooni}!drooni\-Liikkunut@{drooni\-Liikkunut}}
+\index{drooni\-Liikkunut@{drooni\-Liikkunut}!Drooni@{Drooni}}
+\subsubsection[{drooni\-Liikkunut}]{\setlength{\rightskip}{0pt plus 5cm}void Drooni\-::drooni\-Liikkunut (
+\begin{DoxyParamCaption}
+\item[{Q\-Graphics\-Item $\ast$}]{drooni}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [signal]}}}\label{class_drooni_a3020c56fa8b0d3bfe6c1fff40df4ab2d}
+
+
+drooni\-Liikkunut signaali lähetetään aina kun drooni on liikkunut. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em ottaa} & droonin parametrinansa. \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_drooni_ae3bbb3da2c280b4281dbcd064c4f23a5}{\index{Drooni@{Drooni}!key\-Press\-Event@{key\-Press\-Event}}
+\index{key\-Press\-Event@{key\-Press\-Event}!Drooni@{Drooni}}
+\subsubsection[{key\-Press\-Event}]{\setlength{\rightskip}{0pt plus 5cm}void Drooni\-::key\-Press\-Event (
+\begin{DoxyParamCaption}
+\item[{Q\-Key\-Event $\ast$}]{event}
+\end{DoxyParamCaption}
+)}}\label{class_drooni_ae3bbb3da2c280b4281dbcd064c4f23a5}
+
+
+key\-Press\-Event vastaanottaa olion saaman näppäimistösyötteen. Muuntaa nuolinäppäimet ja välilyönnin droonin liikkeiksi. Ei yleensä tarvitse kutsua itse. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em event} & Q\-Key\-Event$\ast$ tyyppinen tapahtuma. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+-\/ 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+\hyperlink{class_drooni}{Drooni} on reagoinnut painikkeeseen halutulla tavalla. Poikkeustakuu\-: ?? 
+\end{DoxyPostcond}
+\hypertarget{class_drooni_a70338cca6bd668a3ef65938d10880ad2}{\index{Drooni@{Drooni}!key\-Release\-Event@{key\-Release\-Event}}
+\index{key\-Release\-Event@{key\-Release\-Event}!Drooni@{Drooni}}
+\subsubsection[{key\-Release\-Event}]{\setlength{\rightskip}{0pt plus 5cm}void Drooni\-::key\-Release\-Event (
+\begin{DoxyParamCaption}
+\item[{Q\-Key\-Event $\ast$}]{event}
+\end{DoxyParamCaption}
+)}}\label{class_drooni_a70338cca6bd668a3ef65938d10880ad2}
+
+
+key\-Release\-Event ks. key\-Press\-Event. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em event} & ks. key\-Press\-Event. \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_drooni_aea58ffdb85ce0db9e4778e0bdf8aea11}{\index{Drooni@{Drooni}!liiku\-Sulavasti@{liiku\-Sulavasti}}
+\index{liiku\-Sulavasti@{liiku\-Sulavasti}!Drooni@{Drooni}}
+\subsubsection[{liiku\-Sulavasti}]{\setlength{\rightskip}{0pt plus 5cm}void Drooni\-::liiku\-Sulavasti (
+\begin{DoxyParamCaption}
+\item[{Rajapinta\-::\-Sijainti}]{sij}
+\end{DoxyParamCaption}
+)}}\label{class_drooni_aea58ffdb85ce0db9e4778e0bdf8aea11}
+
+
+liiku\-Sulavasti Laittaa droonin liikkumaan sulavasti kohti annettua sijaintia. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em sij} & Määränpää sijainti \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+-\/ 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+\hyperlink{class_drooni}{Drooni} liikkuu kohti määränpäätä. Poikkeustakuu\-: perus 
+\end{DoxyPostcond}
+\hypertarget{class_drooni_ae27475e5b09619e4b635b5109f9378f9}{\index{Drooni@{Drooni}!lopeta\-Eteen\-Liikkuminen@{lopeta\-Eteen\-Liikkuminen}}
+\index{lopeta\-Eteen\-Liikkuminen@{lopeta\-Eteen\-Liikkuminen}!Drooni@{Drooni}}
+\subsubsection[{lopeta\-Eteen\-Liikkuminen}]{\setlength{\rightskip}{0pt plus 5cm}void Drooni\-::lopeta\-Eteen\-Liikkuminen (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [slot]}}}\label{class_drooni_ae27475e5b09619e4b635b5109f9378f9}
+
+
+lopeta\-Eteen\-Liikkuminen Lopettaa droonin eteenpäin liikkumisen. 
+
+\begin{DoxyPrecond}{Precondition}
+-\/ 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+liikkuu\-Eteen = false 
+\end{DoxyPostcond}
+\hypertarget{class_drooni_ab849dde58e4cadd190f694b0610e2215}{\index{Drooni@{Drooni}!lopeta\-Kaannos\-Myota@{lopeta\-Kaannos\-Myota}}
+\index{lopeta\-Kaannos\-Myota@{lopeta\-Kaannos\-Myota}!Drooni@{Drooni}}
+\subsubsection[{lopeta\-Kaannos\-Myota}]{\setlength{\rightskip}{0pt plus 5cm}void Drooni\-::lopeta\-Kaannos\-Myota (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [slot]}}}\label{class_drooni_ab849dde58e4cadd190f694b0610e2215}
+
+
+lopeta\-Kaannos\-Myota Lopettaa droonin kääntymisen myötäpäivään. 
+
+\begin{DoxyPrecond}{Precondition}
+-\/ 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+kaantyy\-Oikealle = false 
+\end{DoxyPostcond}
+\hypertarget{class_drooni_a269a91622768bd2c56ac1b2a94151420}{\index{Drooni@{Drooni}!lopeta\-Kaannos\-Vasta@{lopeta\-Kaannos\-Vasta}}
+\index{lopeta\-Kaannos\-Vasta@{lopeta\-Kaannos\-Vasta}!Drooni@{Drooni}}
+\subsubsection[{lopeta\-Kaannos\-Vasta}]{\setlength{\rightskip}{0pt plus 5cm}void Drooni\-::lopeta\-Kaannos\-Vasta (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [slot]}}}\label{class_drooni_a269a91622768bd2c56ac1b2a94151420}
+
+
+lopeta\-Kaannos\-Vasta Lopettaa droonin kääntymisen vastapäivään. 
+
+\begin{DoxyPrecond}{Precondition}
+-\/ 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+kaantyy\-Vasemmalle = false 
+\end{DoxyPostcond}
+\hypertarget{class_drooni_ab44ae640ee3c0d47839188e0d4946d34}{\index{Drooni@{Drooni}!lopeta\-Taakse\-Liikkuminen@{lopeta\-Taakse\-Liikkuminen}}
+\index{lopeta\-Taakse\-Liikkuminen@{lopeta\-Taakse\-Liikkuminen}!Drooni@{Drooni}}
+\subsubsection[{lopeta\-Taakse\-Liikkuminen}]{\setlength{\rightskip}{0pt plus 5cm}void Drooni\-::lopeta\-Taakse\-Liikkuminen (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [slot]}}}\label{class_drooni_ab44ae640ee3c0d47839188e0d4946d34}
+
+
+lopeta\-Taakse\-Liikkuminen Lopettaa droonin taaksepäin liikkumisen. 
+
+\begin{DoxyPrecond}{Precondition}
+-\/ 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+liikkuu\-Taakse = false 
+\end{DoxyPostcond}
+\hypertarget{class_drooni_aaf79cb0fc772cb706a190c7ce7e1c893}{\index{Drooni@{Drooni}!valitse\-Laser@{valitse\-Laser}}
+\index{valitse\-Laser@{valitse\-Laser}!Drooni@{Drooni}}
+\subsubsection[{valitse\-Laser}]{\setlength{\rightskip}{0pt plus 5cm}void Drooni\-::valitse\-Laser (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [slot]}}}\label{class_drooni_aaf79cb0fc772cb706a190c7ce7e1c893}
+
+
+valitse\-Laser valitsee laserin aktiiviseksi aseeksi. 
+
+\begin{DoxyPrecond}{Precondition}
+-\/ 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+\hyperlink{class_laser}{Laser} on valittuna. Poikkeustakuu\-: vahva 
+\end{DoxyPostcond}
+\hypertarget{class_drooni_a3d70e2dcad21eed191d622b573f76012}{\index{Drooni@{Drooni}!valitse\-Miina@{valitse\-Miina}}
+\index{valitse\-Miina@{valitse\-Miina}!Drooni@{Drooni}}
+\subsubsection[{valitse\-Miina}]{\setlength{\rightskip}{0pt plus 5cm}void Drooni\-::valitse\-Miina (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [slot]}}}\label{class_drooni_a3d70e2dcad21eed191d622b573f76012}
+
+
+valitse\-Miina valitsee maamiinan aktiiviseksi aseeksi. 
+
+\begin{DoxyPrecond}{Precondition}
+-\/ 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+Maamiina on valittuna. Poikkeustakuu\-: vahva 
+\end{DoxyPostcond}
+\hypertarget{class_drooni_acc75f5e60f161b914dd6265e59783660}{\index{Drooni@{Drooni}!valitse\-Rynkky@{valitse\-Rynkky}}
+\index{valitse\-Rynkky@{valitse\-Rynkky}!Drooni@{Drooni}}
+\subsubsection[{valitse\-Rynkky}]{\setlength{\rightskip}{0pt plus 5cm}void Drooni\-::valitse\-Rynkky (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [slot]}}}\label{class_drooni_acc75f5e60f161b914dd6265e59783660}
+
+
+valitse\-Rynkky valitsee rynnäkkökiväärin aktiiviseksi aseeksi. 
+
+\begin{DoxyPrecond}{Precondition}
+-\/ 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+Rynnäkkökivääri on valittuna. Poikkeustakuu\-: vahva 
+\end{DoxyPostcond}
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{drooni_8hh}{drooni.\-hh}\item 
+drooni.\-cpp\end{DoxyCompactItemize}

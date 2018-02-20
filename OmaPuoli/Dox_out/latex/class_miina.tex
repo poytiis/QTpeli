@@ -1,0 +1,185 @@
+\hypertarget{class_miina}{\section{Miina Class Reference}
+\label{class_miina}\index{Miina@{Miina}}
+}
+Inheritance diagram for Miina\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{class_miina}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_miina_aa6504bc6417688ddd65e3240118b69c9}{Miina} (Q\-Graphics\-Item $\ast$parent)
+\begin{DoxyCompactList}\small\item\em Miinan rakentaja. \end{DoxyCompactList}\item 
+\hyperlink{class_miina_adb79c83dd78271191b40bf7700d663db}{$\sim$\-Miina} ()
+\begin{DoxyCompactList}\small\item\em Miinan purkaja. \end{DoxyCompactList}\item 
+\hypertarget{class_miina_ad05abb5a4a0da5b960bc418158fc7c75}{int {\bfseries get\-Rajahdys\-Vaihe} () const }\label{class_miina_ad05abb5a4a0da5b960bc418158fc7c75}
+
+\item 
+\hypertarget{class_miina_aae598593480355a3ad261423564f035e}{void {\bfseries set\-Rajahdys\-Vaihe} (int rajahdys\-Vaihe)}\label{class_miina_aae598593480355a3ad261423564f035e}
+
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual void \hyperlink{class_miina_ac7ad8b79597c7309a80e8eb25e7addc7}{aseta\-Ammuskuva} ()
+\begin{DoxyCompactList}\small\item\em aseta\-Ammuskuva asettaa ammuksen ulkoasun. Toteutettava periytetyssä luokassa, asetettava ammuskuva on Q\-Image Ammus\-::ammuskuva. \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_miina_aebbb38a63fadaaba6304d017cf24773c}{alusta\-Ammus} (Q\-Graphics\-Item $\ast$parent, qreal suunta)
+\begin{DoxyCompactList}\small\item\em alusta\-Ammus Alustaa ammuksen toimintakuntoon. Käynnistää ammuksen ajastimen. Kutsutaan yleensä ammuksen rakentajassa. \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_miina_a8de75749e159593e30bb2e4367d17698}{osuma} ()
+\begin{DoxyCompactList}\small\item\em osuma määrittelee ammuksen (ylimääräisen) käyttäytymisen osuessa kohteeseen. Oletustoteutus ei tee mitään. \end{DoxyCompactList}\item 
+virtual bool \hyperlink{class_miina_a10639c013e046a6670362ac4416d3c14}{tarkista\-Osuma} ()
+\begin{DoxyCompactList}\small\item\em tarkista\-Osuma tarkistaa osuuko ammus nysseen ja osuttaessa ilmoittaa sekä ammukselle että nysselle osumasta. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_miina_a10138792eda0d168cb35b8737eddec96}{int {\bfseries r\-Vaihe}}\label{class_miina_a10138792eda0d168cb35b8737eddec96}
+
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_miina_aa6504bc6417688ddd65e3240118b69c9}{\index{Miina@{Miina}!Miina@{Miina}}
+\index{Miina@{Miina}!Miina@{Miina}}
+\subsubsection[{Miina}]{\setlength{\rightskip}{0pt plus 5cm}Miina\-::\-Miina (
+\begin{DoxyParamCaption}
+\item[{Q\-Graphics\-Item $\ast$}]{parent}
+\end{DoxyParamCaption}
+)}}\label{class_miina_aa6504bc6417688ddd65e3240118b69c9}
+
+
+Miinan rakentaja. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em parent} & miinan jättäjä, yleensä drooni \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPostcond}{Postcondition}
+\hyperlink{class_miina}{Miina} asetettu ja alustettu. Poikkeustakuu\-: perus 
+\end{DoxyPostcond}
+\hypertarget{class_miina_adb79c83dd78271191b40bf7700d663db}{\index{Miina@{Miina}!$\sim$\-Miina@{$\sim$\-Miina}}
+\index{$\sim$\-Miina@{$\sim$\-Miina}!Miina@{Miina}}
+\subsubsection[{$\sim$\-Miina}]{\setlength{\rightskip}{0pt plus 5cm}Miina\-::$\sim$\-Miina (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_miina_adb79c83dd78271191b40bf7700d663db}
+
+
+Miinan purkaja. 
+
+\begin{DoxyPostcond}{Postcondition}
+miina on tuhottu oikein 
+\end{DoxyPostcond}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_miina_aebbb38a63fadaaba6304d017cf24773c}{\index{Miina@{Miina}!alusta\-Ammus@{alusta\-Ammus}}
+\index{alusta\-Ammus@{alusta\-Ammus}!Miina@{Miina}}
+\subsubsection[{alusta\-Ammus}]{\setlength{\rightskip}{0pt plus 5cm}void Miina\-::alusta\-Ammus (
+\begin{DoxyParamCaption}
+\item[{Q\-Graphics\-Item $\ast$}]{parent, }
+\item[{qreal}]{suunta}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}}\label{class_miina_aebbb38a63fadaaba6304d017cf24773c}
+
+
+alusta\-Ammus Alustaa ammuksen toimintakuntoon. Käynnistää ammuksen ajastimen. Kutsutaan yleensä ammuksen rakentajassa. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em parent} & Ammuksen ampuja, ammuksen lähtöpaikaksi asetetaan ampujan paikka \\
+\hline
+{\em suunta} & Ammuksen lähtösuunta \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+\hyperlink{class_ammus}{Ammus} on alustamaton 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+\hyperlink{class_ammus}{Ammus} on alustettu ja toimintakuntoinen. Poikkeustakuu\-: perus 
+\end{DoxyPostcond}
+
+
+Reimplemented from \hyperlink{class_ammus_aeba3c164d8cd35b3937496904780e3f0}{Ammus}.
+
+\hypertarget{class_miina_ac7ad8b79597c7309a80e8eb25e7addc7}{\index{Miina@{Miina}!aseta\-Ammuskuva@{aseta\-Ammuskuva}}
+\index{aseta\-Ammuskuva@{aseta\-Ammuskuva}!Miina@{Miina}}
+\subsubsection[{aseta\-Ammuskuva}]{\setlength{\rightskip}{0pt plus 5cm}void Miina\-::aseta\-Ammuskuva (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}}\label{class_miina_ac7ad8b79597c7309a80e8eb25e7addc7}
+
+
+aseta\-Ammuskuva asettaa ammuksen ulkoasun. Toteutettava periytetyssä luokassa, asetettava ammuskuva on Q\-Image Ammus\-::ammuskuva. 
+
+\begin{DoxyPrecond}{Precondition}
+-\/ 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+Ammus\-::ammuskuva on asetettu. Poikkeustakuu\-: perus 
+\end{DoxyPostcond}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Peli\-Virhe} & Ammuskuvan avaaminen epäonnistui. \\
+\hline
+\end{DoxyExceptions}
+
+
+Implements \hyperlink{class_ammus_a637789fc7748679d5e6ceeb7bb2d24a4}{Ammus}.
+
+\hypertarget{class_miina_a8de75749e159593e30bb2e4367d17698}{\index{Miina@{Miina}!osuma@{osuma}}
+\index{osuma@{osuma}!Miina@{Miina}}
+\subsubsection[{osuma}]{\setlength{\rightskip}{0pt plus 5cm}void Miina\-::osuma (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}}\label{class_miina_a8de75749e159593e30bb2e4367d17698}
+
+
+osuma määrittelee ammuksen (ylimääräisen) käyttäytymisen osuessa kohteeseen. Oletustoteutus ei tee mitään. 
+
+\begin{DoxyPrecond}{Precondition}
+-\/ 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+Poikkeustakuu\-: perus 
+\end{DoxyPostcond}
+
+
+Reimplemented from \hyperlink{class_ammus_a81ad352e18b9b3acebd307d5c46d40ba}{Ammus}.
+
+\hypertarget{class_miina_a10639c013e046a6670362ac4416d3c14}{\index{Miina@{Miina}!tarkista\-Osuma@{tarkista\-Osuma}}
+\index{tarkista\-Osuma@{tarkista\-Osuma}!Miina@{Miina}}
+\subsubsection[{tarkista\-Osuma}]{\setlength{\rightskip}{0pt plus 5cm}bool Miina\-::tarkista\-Osuma (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}}\label{class_miina_a10639c013e046a6670362ac4416d3c14}
+
+
+tarkista\-Osuma tarkistaa osuuko ammus nysseen ja osuttaessa ilmoittaa sekä ammukselle että nysselle osumasta. 
+
+\begin{DoxyPrecond}{Precondition}
+\hyperlink{class_ammus}{Ammus} on alustettu 
+\end{DoxyPrecond}
+\begin{DoxyReturn}{Returns}
+true mikäli ammus osui, muuten false 
+\end{DoxyReturn}
+\begin{DoxyPostcond}{Postcondition}
+Poikkeustakuu\-: perus 
+\end{DoxyPostcond}
+
+
+Reimplemented from \hyperlink{class_ammus_a60d382b563f273bb90c60c4a5b396210}{Ammus}.
+
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{miina_8hh}{miina.\-hh}\item 
+miina.\-cpp\end{DoxyCompactItemize}

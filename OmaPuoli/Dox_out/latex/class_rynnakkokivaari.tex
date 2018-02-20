@@ -1,0 +1,96 @@
+\hypertarget{class_rynnakkokivaari}{\section{Rynnakkokivaari Class Reference}
+\label{class_rynnakkokivaari}\index{Rynnakkokivaari@{Rynnakkokivaari}}
+}
+Inheritance diagram for Rynnakkokivaari\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{class_rynnakkokivaari}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_rynnakkokivaari_ad021e0c4cb3b5fb47e98290b279aaec9}{Rynnakkokivaari} (Q\-Graphics\-Item $\ast$parent, qreal suunta)
+\begin{DoxyCompactList}\small\item\em Rynnakkokivaarin rakentaja. \end{DoxyCompactList}\item 
+\hyperlink{class_rynnakkokivaari_a9f012122077ef373f64c791c89fab206}{$\sim$\-Rynnakkokivaari} ()
+\begin{DoxyCompactList}\small\item\em Ammuksen purkaja, tuhoaa new'llä luodun Q\-Timerin. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual void \hyperlink{class_rynnakkokivaari_a3b09e5434760dd51d7aeb5834520e52d}{aseta\-Ammuskuva} ()
+\begin{DoxyCompactList}\small\item\em aseta\-Ammuskuva asettaa ammuksen ulkoasun. Toteutettava periytetyssä luokassa, asetettava ammuskuva on Q\-Image Ammus\-::ammuskuva. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_rynnakkokivaari_ad021e0c4cb3b5fb47e98290b279aaec9}{\index{Rynnakkokivaari@{Rynnakkokivaari}!Rynnakkokivaari@{Rynnakkokivaari}}
+\index{Rynnakkokivaari@{Rynnakkokivaari}!Rynnakkokivaari@{Rynnakkokivaari}}
+\subsubsection[{Rynnakkokivaari}]{\setlength{\rightskip}{0pt plus 5cm}Rynnakkokivaari\-::\-Rynnakkokivaari (
+\begin{DoxyParamCaption}
+\item[{Q\-Graphics\-Item $\ast$}]{parent, }
+\item[{qreal}]{suunta}
+\end{DoxyParamCaption}
+)}}\label{class_rynnakkokivaari_ad021e0c4cb3b5fb47e98290b279aaec9}
+
+
+Rynnakkokivaarin rakentaja. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em parent} & ammuksen ampuja \\
+\hline
+{\em suunta} & ammuksen lähtösuunta \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPostcond}{Postcondition}
+Rynnäkkökiväärin ammus on alustettu ja toiminnassa. Poikkeustakuu\-: perus 
+\end{DoxyPostcond}
+\hypertarget{class_rynnakkokivaari_a9f012122077ef373f64c791c89fab206}{\index{Rynnakkokivaari@{Rynnakkokivaari}!$\sim$\-Rynnakkokivaari@{$\sim$\-Rynnakkokivaari}}
+\index{$\sim$\-Rynnakkokivaari@{$\sim$\-Rynnakkokivaari}!Rynnakkokivaari@{Rynnakkokivaari}}
+\subsubsection[{$\sim$\-Rynnakkokivaari}]{\setlength{\rightskip}{0pt plus 5cm}Rynnakkokivaari\-::$\sim$\-Rynnakkokivaari (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_rynnakkokivaari_a9f012122077ef373f64c791c89fab206}
+
+
+Ammuksen purkaja, tuhoaa new'llä luodun Q\-Timerin. 
+
+\begin{DoxyPostcond}{Postcondition}
+ammus on tuhottu oikein. 
+\end{DoxyPostcond}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_rynnakkokivaari_a3b09e5434760dd51d7aeb5834520e52d}{\index{Rynnakkokivaari@{Rynnakkokivaari}!aseta\-Ammuskuva@{aseta\-Ammuskuva}}
+\index{aseta\-Ammuskuva@{aseta\-Ammuskuva}!Rynnakkokivaari@{Rynnakkokivaari}}
+\subsubsection[{aseta\-Ammuskuva}]{\setlength{\rightskip}{0pt plus 5cm}void Rynnakkokivaari\-::aseta\-Ammuskuva (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}}\label{class_rynnakkokivaari_a3b09e5434760dd51d7aeb5834520e52d}
+
+
+aseta\-Ammuskuva asettaa ammuksen ulkoasun. Toteutettava periytetyssä luokassa, asetettava ammuskuva on Q\-Image Ammus\-::ammuskuva. 
+
+\begin{DoxyPrecond}{Precondition}
+-\/ 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+Ammus\-::ammuskuva on asetettu. Poikkeustakuu\-: perus 
+\end{DoxyPostcond}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Peli\-Virhe} & Ammuskuvan avaaminen epäonnistui. \\
+\hline
+\end{DoxyExceptions}
+
+
+Implements \hyperlink{class_ammus_a637789fc7748679d5e6ceeb7bb2d24a4}{Ammus}.
+
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{rynnakkokivaari_8hh}{rynnakkokivaari.\-hh}\item 
+rynnakkokivaari.\-cpp\end{DoxyCompactItemize}

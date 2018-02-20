@@ -1,0 +1,283 @@
+\hypertarget{class_ammus}{\section{Ammus Class Reference}
+\label{class_ammus}\index{Ammus@{Ammus}}
+}
+Inheritance diagram for Ammus\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{class_ammus}
+\end{center}
+\end{figure}
+\subsection*{Public Slots}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{class_ammus_a29344837087d4864b8588e590b73732b}{tuhoa\-Ammus} ()
+\begin{DoxyCompactList}\small\item\em tuhoa\-Ammus tuhoaa ammuksen hallitusti, käytetään singleshot timerin kanssa viivästettyyn tuhoamiseen. Hyödyllinen esimerkiksi animoidun räjähdyksen kanssa. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_ammus_a7d181d103a138ac9955a612def8a68ce}{\hyperlink{class_ammus_a7d181d103a138ac9955a612def8a68ce}{Ammus} ()}\label{class_ammus_a7d181d103a138ac9955a612def8a68ce}
+
+\begin{DoxyCompactList}\small\item\em Tyhmä rakentaja ammukselle, ei tule käyttää. \end{DoxyCompactList}\item 
+\hyperlink{class_ammus_aa177444791e94b517355b6f9bce564d2}{Ammus} (Q\-Graphics\-Item $\ast$parent, qreal suunta)
+\begin{DoxyCompactList}\small\item\em Ammuksen \char`\"{}perus\char`\"{} rakentaja; ei ole hyvä käyttää sinänsä, mutta toteutettu malliksi aliluokkien rakentajaksi. \end{DoxyCompactList}\item 
+\hypertarget{class_ammus_a0363c773453437b858da09e72383732a}{\hyperlink{class_ammus_a0363c773453437b858da09e72383732a}{$\sim$\-Ammus} ()}\label{class_ammus_a0363c773453437b858da09e72383732a}
+
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_ammus}{Ammus} kantaluokan purkaja, hoitaa kantaluokan new'llä varaamien muuttujien tuhoamisen. \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_ammus_a965bb7b91b351d4ed21de577f980968d}{etene} ()
+\begin{DoxyCompactList}\small\item\em etene liikuttaa ammusta ja tarkistaa mahdolliset osumat. Kantaman ylittyessä tuhoaa ammuksen. \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_ammus_a8863947b7cd97ddc5f0ac587547e2305}{ulko\-Osuma} ()
+\begin{DoxyCompactList}\small\item\em ulko\-Osuma tuhoaa ammuksen. Käytetään kun ammus halutaan tuhota ulkopuolelta. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_ammus_a43f17fae41260e222e2c291ae9921516}{void {\bfseries paint} (Q\-Painter $\ast$painter, const Q\-Style\-Option\-Graphics\-Item $\ast$option, Q\-Widget $\ast$widget)}\label{class_ammus_a43f17fae41260e222e2c291ae9921516}
+
+\item 
+\hypertarget{class_ammus_ad6879b5760f9f1b00f0dad26a693bf5a}{virtual Q\-Rect\-F {\bfseries bounding\-Rect} () const }\label{class_ammus_ad6879b5760f9f1b00f0dad26a693bf5a}
+
+\item 
+virtual void \hyperlink{class_ammus_aeba3c164d8cd35b3937496904780e3f0}{alusta\-Ammus} (Q\-Graphics\-Item $\ast$parent, qreal suunta)
+\begin{DoxyCompactList}\small\item\em alusta\-Ammus Alustaa ammuksen toimintakuntoon. Käynnistää ammuksen ajastimen. Kutsutaan yleensä ammuksen rakentajassa. \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_ammus_a637789fc7748679d5e6ceeb7bb2d24a4}{aseta\-Ammuskuva} ()=0
+\begin{DoxyCompactList}\small\item\em aseta\-Ammuskuva asettaa ammuksen ulkoasun. Toteutettava periytetyssä luokassa, asetettava ammuskuva on Q\-Image Ammus\-::ammuskuva. \end{DoxyCompactList}\item 
+virtual bool \hyperlink{class_ammus_a60d382b563f273bb90c60c4a5b396210}{tarkista\-Osuma} ()
+\begin{DoxyCompactList}\small\item\em tarkista\-Osuma tarkistaa osuuko ammus nysseen ja osuttaessa ilmoittaa sekä ammukselle että nysselle osumasta. \end{DoxyCompactList}\item 
+virtual void \hyperlink{class_ammus_a81ad352e18b9b3acebd307d5c46d40ba}{osuma} ()
+\begin{DoxyCompactList}\small\item\em osuma määrittelee ammuksen (ylimääräisen) käyttäytymisen osuessa kohteeseen. Oletustoteutus ei tee mitään. \end{DoxyCompactList}\item 
+Q\-Point\-F \hyperlink{class_ammus_a1195266d54d90cc1080db00ba425f717}{suunta\-Piste} () const 
+\begin{DoxyCompactList}\small\item\em suunta\-Piste selvittää ammuksen etenemissuunnan. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_ammus_a6b2e4a71e83ffc1f73d711fecd1d6e23}{Q\-Image {\bfseries ammuskuva}}\label{class_ammus_a6b2e4a71e83ffc1f73d711fecd1d6e23}
+
+\item 
+\hypertarget{class_ammus_a1f3a4778ce2af1c1204b41aef380e6fd}{bool {\bfseries animoitu\-Osuma\-\_\-} \{false\}}\label{class_ammus_a1f3a4778ce2af1c1204b41aef380e6fd}
+
+\item 
+\hypertarget{class_ammus_a6a0d35b4e038c0239400c574df51e7e2}{int {\bfseries nopeus} \{1500\}}\label{class_ammus_a6a0d35b4e038c0239400c574df51e7e2}
+
+\item 
+\hypertarget{class_ammus_a66ca908e275d08437fea7c3d30b0c6db}{int {\bfseries kantama} \{300\}}\label{class_ammus_a66ca908e275d08437fea7c3d30b0c6db}
+
+\item 
+\hypertarget{class_ammus_a5e4ee33acdc36a7c26dbcd777afb34a4}{qreal {\bfseries suunta\-\_\-} \{0\}}\label{class_ammus_a5e4ee33acdc36a7c26dbcd777afb34a4}
+
+\item 
+\hypertarget{class_ammus_aa5a5684121d62e831e4684128e75926d}{qreal {\bfseries etenema}}\label{class_ammus_aa5a5684121d62e831e4684128e75926d}
+
+\item 
+\hypertarget{class_ammus_ad34451c16b99b60a93bca9203f04165c}{Q\-Timer $\ast$ {\bfseries animaatioajastin}}\label{class_ammus_ad34451c16b99b60a93bca9203f04165c}
+
+\item 
+\hypertarget{class_ammus_af6010d25cc2e41e723470e81158c230a}{bool {\bfseries tuhoutumassa} \{false\}}\label{class_ammus_af6010d25cc2e41e723470e81158c230a}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_ammus_aa177444791e94b517355b6f9bce564d2}{\index{Ammus@{Ammus}!Ammus@{Ammus}}
+\index{Ammus@{Ammus}!Ammus@{Ammus}}
+\subsubsection[{Ammus}]{\setlength{\rightskip}{0pt plus 5cm}Ammus\-::\-Ammus (
+\begin{DoxyParamCaption}
+\item[{Q\-Graphics\-Item $\ast$}]{parent, }
+\item[{qreal}]{suunta}
+\end{DoxyParamCaption}
+)}}\label{class_ammus_aa177444791e94b517355b6f9bce564d2}
+
+
+Ammuksen \char`\"{}perus\char`\"{} rakentaja; ei ole hyvä käyttää sinänsä, mutta toteutettu malliksi aliluokkien rakentajaksi. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em parent} & ammuksen vanhempi \\
+\hline
+{\em suunta} & Ammuksen lähtösuunta \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+-\/ 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+\hyperlink{class_ammus}{Ammus} on luotu, alustettu ja liikkuu 
+\end{DoxyPostcond}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_ammus_aeba3c164d8cd35b3937496904780e3f0}{\index{Ammus@{Ammus}!alusta\-Ammus@{alusta\-Ammus}}
+\index{alusta\-Ammus@{alusta\-Ammus}!Ammus@{Ammus}}
+\subsubsection[{alusta\-Ammus}]{\setlength{\rightskip}{0pt plus 5cm}void Ammus\-::alusta\-Ammus (
+\begin{DoxyParamCaption}
+\item[{Q\-Graphics\-Item $\ast$}]{parent, }
+\item[{qreal}]{suunta}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}}\label{class_ammus_aeba3c164d8cd35b3937496904780e3f0}
+
+
+alusta\-Ammus Alustaa ammuksen toimintakuntoon. Käynnistää ammuksen ajastimen. Kutsutaan yleensä ammuksen rakentajassa. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em parent} & Ammuksen ampuja, ammuksen lähtöpaikaksi asetetaan ampujan paikka \\
+\hline
+{\em suunta} & Ammuksen lähtösuunta \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+\hyperlink{class_ammus}{Ammus} on alustamaton 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+\hyperlink{class_ammus}{Ammus} on alustettu ja toimintakuntoinen. Poikkeustakuu\-: perus 
+\end{DoxyPostcond}
+
+
+Reimplemented in \hyperlink{class_miina_aebbb38a63fadaaba6304d017cf24773c}{Miina}.
+
+\hypertarget{class_ammus_a637789fc7748679d5e6ceeb7bb2d24a4}{\index{Ammus@{Ammus}!aseta\-Ammuskuva@{aseta\-Ammuskuva}}
+\index{aseta\-Ammuskuva@{aseta\-Ammuskuva}!Ammus@{Ammus}}
+\subsubsection[{aseta\-Ammuskuva}]{\setlength{\rightskip}{0pt plus 5cm}void Ammus\-::aseta\-Ammuskuva (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [pure virtual]}}}\label{class_ammus_a637789fc7748679d5e6ceeb7bb2d24a4}
+
+
+aseta\-Ammuskuva asettaa ammuksen ulkoasun. Toteutettava periytetyssä luokassa, asetettava ammuskuva on Q\-Image Ammus\-::ammuskuva. 
+
+\begin{DoxyPrecond}{Precondition}
+-\/ 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+Ammus\-::ammuskuva on asetettu. Poikkeustakuu\-: perus 
+\end{DoxyPostcond}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Peli\-Virhe} & Ammuskuvan avaaminen epäonnistui. \\
+\hline
+\end{DoxyExceptions}
+
+
+Implemented in \hyperlink{class_miina_ac7ad8b79597c7309a80e8eb25e7addc7}{Miina}, \hyperlink{class_laser_a37b0776365b937150549db54fec6ef8d}{Laser}, and \hyperlink{class_rynnakkokivaari_a3b09e5434760dd51d7aeb5834520e52d}{Rynnakkokivaari}.
+
+\hypertarget{class_ammus_a965bb7b91b351d4ed21de577f980968d}{\index{Ammus@{Ammus}!etene@{etene}}
+\index{etene@{etene}!Ammus@{Ammus}}
+\subsubsection[{etene}]{\setlength{\rightskip}{0pt plus 5cm}void Ammus\-::etene (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_ammus_a965bb7b91b351d4ed21de577f980968d}
+
+
+etene liikuttaa ammusta ja tarkistaa mahdolliset osumat. Kantaman ylittyessä tuhoaa ammuksen. 
+
+\begin{DoxyPrecond}{Precondition}
+\hyperlink{class_ammus}{Ammus} on alustettu 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+\hyperlink{class_ammus}{Ammus} on liikkunut ja tarkastanut osumat. Poikkeustakuu\-: perus 
+\end{DoxyPostcond}
+\hypertarget{class_ammus_a81ad352e18b9b3acebd307d5c46d40ba}{\index{Ammus@{Ammus}!osuma@{osuma}}
+\index{osuma@{osuma}!Ammus@{Ammus}}
+\subsubsection[{osuma}]{\setlength{\rightskip}{0pt plus 5cm}void Ammus\-::osuma (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}}\label{class_ammus_a81ad352e18b9b3acebd307d5c46d40ba}
+
+
+osuma määrittelee ammuksen (ylimääräisen) käyttäytymisen osuessa kohteeseen. Oletustoteutus ei tee mitään. 
+
+\begin{DoxyPrecond}{Precondition}
+-\/ 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+Poikkeustakuu\-: perus 
+\end{DoxyPostcond}
+
+
+Reimplemented in \hyperlink{class_miina_a8de75749e159593e30bb2e4367d17698}{Miina}.
+
+\hypertarget{class_ammus_a1195266d54d90cc1080db00ba425f717}{\index{Ammus@{Ammus}!suunta\-Piste@{suunta\-Piste}}
+\index{suunta\-Piste@{suunta\-Piste}!Ammus@{Ammus}}
+\subsubsection[{suunta\-Piste}]{\setlength{\rightskip}{0pt plus 5cm}Q\-Point\-F Ammus\-::suunta\-Piste (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [protected]}}}\label{class_ammus_a1195266d54d90cc1080db00ba425f717}
+
+
+suunta\-Piste selvittää ammuksen etenemissuunnan. 
+
+\begin{DoxyPrecond}{Precondition}
+\hyperlink{class_ammus}{Ammus} on alustettu 
+\end{DoxyPrecond}
+\begin{DoxyReturn}{Returns}
+etäisyydellä 1 ammuksesta oleva Q\-Point\-F ammuksen etenemissuunnassa 
+\end{DoxyReturn}
+\begin{DoxyPostcond}{Postcondition}
+Poikkeustakuu\-: perus 
+\end{DoxyPostcond}
+\hypertarget{class_ammus_a60d382b563f273bb90c60c4a5b396210}{\index{Ammus@{Ammus}!tarkista\-Osuma@{tarkista\-Osuma}}
+\index{tarkista\-Osuma@{tarkista\-Osuma}!Ammus@{Ammus}}
+\subsubsection[{tarkista\-Osuma}]{\setlength{\rightskip}{0pt plus 5cm}bool Ammus\-::tarkista\-Osuma (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}}\label{class_ammus_a60d382b563f273bb90c60c4a5b396210}
+
+
+tarkista\-Osuma tarkistaa osuuko ammus nysseen ja osuttaessa ilmoittaa sekä ammukselle että nysselle osumasta. 
+
+\begin{DoxyPrecond}{Precondition}
+\hyperlink{class_ammus}{Ammus} on alustettu 
+\end{DoxyPrecond}
+\begin{DoxyReturn}{Returns}
+true mikäli ammus osui, muuten false 
+\end{DoxyReturn}
+\begin{DoxyPostcond}{Postcondition}
+Poikkeustakuu\-: perus 
+\end{DoxyPostcond}
+
+
+Reimplemented in \hyperlink{class_miina_a10639c013e046a6670362ac4416d3c14}{Miina}, and \hyperlink{class_laser_af022ce6822c0303e886812823e48ea82}{Laser}.
+
+\hypertarget{class_ammus_a29344837087d4864b8588e590b73732b}{\index{Ammus@{Ammus}!tuhoa\-Ammus@{tuhoa\-Ammus}}
+\index{tuhoa\-Ammus@{tuhoa\-Ammus}!Ammus@{Ammus}}
+\subsubsection[{tuhoa\-Ammus}]{\setlength{\rightskip}{0pt plus 5cm}void Ammus\-::tuhoa\-Ammus (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [slot]}}}\label{class_ammus_a29344837087d4864b8588e590b73732b}
+
+
+tuhoa\-Ammus tuhoaa ammuksen hallitusti, käytetään singleshot timerin kanssa viivästettyyn tuhoamiseen. Hyödyllinen esimerkiksi animoidun räjähdyksen kanssa. 
+
+\begin{DoxyPrecond}{Precondition}
+\hyperlink{class_ammus}{Ammus} on alustettu 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+\hyperlink{class_ammus}{Ammus} on tuhottu oikein. Poikkeustakuu\-: vahva 
+\end{DoxyPostcond}
+\hypertarget{class_ammus_a8863947b7cd97ddc5f0ac587547e2305}{\index{Ammus@{Ammus}!ulko\-Osuma@{ulko\-Osuma}}
+\index{ulko\-Osuma@{ulko\-Osuma}!Ammus@{Ammus}}
+\subsubsection[{ulko\-Osuma}]{\setlength{\rightskip}{0pt plus 5cm}void Ammus\-::ulko\-Osuma (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_ammus_a8863947b7cd97ddc5f0ac587547e2305}
+
+
+ulko\-Osuma tuhoaa ammuksen. Käytetään kun ammus halutaan tuhota ulkopuolelta. 
+
+\begin{DoxyPrecond}{Precondition}
+\hyperlink{class_ammus}{Ammus} on alustettu 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+\hyperlink{class_ammus}{Ammus} on tuhottu normaalisti tai ajoitettu tuhoutumaan normaalisti. Poikkeustakuu\-: perus. 
+\end{DoxyPostcond}
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{ammus_8hh}{ammus.\-hh}\item 
+ammus.\-cpp\end{DoxyCompactItemize}

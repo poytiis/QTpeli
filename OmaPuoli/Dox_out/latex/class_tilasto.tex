@@ -1,0 +1,140 @@
+\hypertarget{class_tilasto}{\section{Tilasto Class Reference}
+\label{class_tilasto}\index{Tilasto@{Tilasto}}
+}
+Inheritance diagram for Tilasto\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_tilasto}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_tilasto_ae9dc95097a968eec3e7ccf95802ca1ad}{virtual int {\bfseries anna\-Pisteet} () const }\label{class_tilasto_ae9dc95097a968eec3e7ccf95802ca1ad}
+
+\item 
+\hypertarget{class_tilasto_aee07b758b26e74787301d885134072cd}{virtual void {\bfseries matkustajia\-Kuoli} (int lkm)}\label{class_tilasto_aee07b758b26e74787301d885134072cd}
+
+\item 
+\hypertarget{class_tilasto_acc175adaef0890e7a619ffb647d1b712}{virtual void {\bfseries lisaa\-Matkustajia} (int lkm)}\label{class_tilasto_acc175adaef0890e7a619ffb647d1b712}
+
+\item 
+\hypertarget{class_tilasto_a9b424d80452e7c7e30e2ec3b2b67202c}{virtual void {\bfseries nysse\-Tuhoutui} ()}\label{class_tilasto_a9b424d80452e7c7e30e2ec3b2b67202c}
+
+\item 
+\hypertarget{class_tilasto_a02eeb0e7cadc5364bf6775923a538f28}{virtual void {\bfseries uusi\-Nysse} ()}\label{class_tilasto_a02eeb0e7cadc5364bf6775923a538f28}
+
+\item 
+\hypertarget{class_tilasto_ad1f3fdb38673138ef2472ada5a7a1400}{virtual void {\bfseries nysse\-Poistui} ()}\label{class_tilasto_ad1f3fdb38673138ef2472ada5a7a1400}
+
+\item 
+std\-::vector$<$ int $>$ \hyperlink{class_tilasto_a3d52332ec15d3cfb8a328ca5706ca7ab}{paivita\-\_\-tilasto} () const 
+\begin{DoxyCompactList}\small\item\em paivita\-\_\-tilasto palauttaa kaupungille pistetaulua varten tarvittavat luvut. \end{DoxyCompactList}\item 
+std\-::vector$<$ Q\-String $>$ \hyperlink{class_tilasto_a86702f1421079639ef7cd6d9a8c24019}{lue\-\_\-tiedosto} (Q\-String)
+\begin{DoxyCompactList}\small\item\em lue\-\_\-tiedosto lukee tekstitiedoston, johon on tallennettu parhaiden pelaajien tiedot \end{DoxyCompactList}\item 
+void \hyperlink{class_tilasto_a884916e254892439f8f4e8e3fa144566}{kirjoita\-Tiedostoon} (int, Q\-String) const 
+\begin{DoxyCompactList}\small\item\em kirjoita\-Tiedostoon lisää pelaajan tuloksen top-\/listalle, jos on aihetta \end{DoxyCompactList}\item 
+int \hyperlink{class_tilasto_a76f09fa3ec7ca9031b0143bcac01b882}{selvita\-Listasijoitus} (int uusi\-Tulos) const 
+\begin{DoxyCompactList}\small\item\em selvita\-Listasijoitus Kertoo sijoituksen top 10 listalla annetuilla pisteillä. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_tilasto_a884916e254892439f8f4e8e3fa144566}{\index{Tilasto@{Tilasto}!kirjoita\-Tiedostoon@{kirjoita\-Tiedostoon}}
+\index{kirjoita\-Tiedostoon@{kirjoita\-Tiedostoon}!Tilasto@{Tilasto}}
+\subsubsection[{kirjoita\-Tiedostoon}]{\setlength{\rightskip}{0pt plus 5cm}void Tilasto\-::kirjoita\-Tiedostoon (
+\begin{DoxyParamCaption}
+\item[{int}]{tulos, }
+\item[{Q\-String}]{nimi}
+\end{DoxyParamCaption}
+) const}}\label{class_tilasto_a884916e254892439f8f4e8e3fa144566}
+
+
+kirjoita\-Tiedostoon lisää pelaajan tuloksen top-\/listalle, jos on aihetta 
+
+
+\begin{DoxyParams}{Parameters}
+{\em pelaajan} & tulos ja nimi \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+tiedosto johon kirjoitetaan on olemassa 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+poikkeustakuu\-: vahva 
+\end{DoxyPostcond}
+\hypertarget{class_tilasto_a86702f1421079639ef7cd6d9a8c24019}{\index{Tilasto@{Tilasto}!lue\-\_\-tiedosto@{lue\-\_\-tiedosto}}
+\index{lue\-\_\-tiedosto@{lue\-\_\-tiedosto}!Tilasto@{Tilasto}}
+\subsubsection[{lue\-\_\-tiedosto}]{\setlength{\rightskip}{0pt plus 5cm}std\-::vector$<$ Q\-String $>$ Tilasto\-::lue\-\_\-tiedosto (
+\begin{DoxyParamCaption}
+\item[{Q\-String}]{tiedosto}
+\end{DoxyParamCaption}
+)}}\label{class_tilasto_a86702f1421079639ef7cd6d9a8c24019}
+
+
+lue\-\_\-tiedosto lukee tekstitiedoston, johon on tallennettu parhaiden pelaajien tiedot 
+
+\begin{DoxyReturn}{Returns}
+vektorin, jossa alkioina on tiedoston rivi tallenettuna Q\-Stringiin 
+\end{DoxyReturn}
+\begin{DoxyPrecond}{Precondition}
+tiedoston rivit on muotoa \char`\"{} nimi tulos \char`\"{} 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+poikkeustakuu\-: vahva 
+\end{DoxyPostcond}
+
+\begin{DoxyParams}{Parameters}
+{\em tiedoston} & hakupolku \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_tilasto_a3d52332ec15d3cfb8a328ca5706ca7ab}{\index{Tilasto@{Tilasto}!paivita\-\_\-tilasto@{paivita\-\_\-tilasto}}
+\index{paivita\-\_\-tilasto@{paivita\-\_\-tilasto}!Tilasto@{Tilasto}}
+\subsubsection[{paivita\-\_\-tilasto}]{\setlength{\rightskip}{0pt plus 5cm}std\-::vector$<$ int $>$ Tilasto\-::paivita\-\_\-tilasto (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}}\label{class_tilasto_a3d52332ec15d3cfb8a328ca5706ca7ab}
+
+
+paivita\-\_\-tilasto palauttaa kaupungille pistetaulua varten tarvittavat luvut. 
+
+\begin{DoxyReturn}{Returns}
+vektori, jossa on 5 tilaston private muuttujaa 
+\end{DoxyReturn}
+\begin{DoxyPrecond}{Precondition}
+olio rakennettu 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+poikkeustakuu\-: vahva 
+\end{DoxyPostcond}
+\hypertarget{class_tilasto_a76f09fa3ec7ca9031b0143bcac01b882}{\index{Tilasto@{Tilasto}!selvita\-Listasijoitus@{selvita\-Listasijoitus}}
+\index{selvita\-Listasijoitus@{selvita\-Listasijoitus}!Tilasto@{Tilasto}}
+\subsubsection[{selvita\-Listasijoitus}]{\setlength{\rightskip}{0pt plus 5cm}int Tilasto\-::selvita\-Listasijoitus (
+\begin{DoxyParamCaption}
+\item[{int}]{uusi\-Tulos}
+\end{DoxyParamCaption}
+) const}}\label{class_tilasto_a76f09fa3ec7ca9031b0143bcac01b882}
+
+
+selvita\-Listasijoitus Kertoo sijoituksen top 10 listalla annetuilla pisteillä. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em uusi\-Tulos} & Pisteet joidenka sijoitus halutaan. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Sijoitus top10 listalla, 11 jos ei top10 listalla 
+\end{DoxyReturn}
+\begin{DoxyPrecond}{Precondition}
+-\/ 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+Poikkeustakuu\-: vahva 
+\end{DoxyPostcond}
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+tilasto.\-hh\item 
+tilasto.\-cpp\end{DoxyCompactItemize}

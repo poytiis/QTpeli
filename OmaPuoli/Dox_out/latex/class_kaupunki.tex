@@ -1,0 +1,78 @@
+\hypertarget{class_kaupunki}{\section{Kaupunki Class Reference}
+\label{class_kaupunki}\index{Kaupunki@{Kaupunki}}
+}
+Inheritance diagram for Kaupunki\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_kaupunki}
+\end{center}
+\end{figure}
+\subsection*{Public Slots}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{class_kaupunki_abbd4ebfe6854442610e5140023583c4d}{ajasta\-Lopetus} ()
+\begin{DoxyCompactList}\small\item\em aloita\-Lopetus Käynnistää ajastimen joka X ajan kuluttua päättää pelin. Kutsutaan kun droonin ammukset loppuvat. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_kaupunki_a2a9066295e9dcbfaba97fb677c005bc7}{virtual void {\bfseries aseta\-Tausta} (Q\-Image \&perustaustakuva, Q\-Image \&isotaustakuva)}\label{class_kaupunki_a2a9066295e9dcbfaba97fb677c005bc7}
+
+\item 
+\hypertarget{class_kaupunki_a9a93cf4868b36877ac1e427bce009231}{virtual void {\bfseries aseta\-Kello} (Q\-Time kello)}\label{class_kaupunki_a9a93cf4868b36877ac1e427bce009231}
+
+\item 
+\hypertarget{class_kaupunki_a5587a426a73729ff72e77f6024e51cdb}{virtual void {\bfseries lisaa\-Pysakki} (std\-::shared\-\_\-ptr$<$ Rajapinta\-::\-Pysakki\-R\-P $>$ pysakki)}\label{class_kaupunki_a5587a426a73729ff72e77f6024e51cdb}
+
+\item 
+\hypertarget{class_kaupunki_a3c26d0aef4079b9702df58bbe0274b8a}{virtual void {\bfseries peli\-Alkaa} ()}\label{class_kaupunki_a3c26d0aef4079b9702df58bbe0274b8a}
+
+\item 
+\hypertarget{class_kaupunki_aefd6a15df4d2bd85206cc5262b25267c}{virtual void {\bfseries lisaa\-Toimija} (std\-::shared\-\_\-ptr$<$ Rajapinta\-::\-Toimija\-R\-P $>$ uusitoimija)}\label{class_kaupunki_aefd6a15df4d2bd85206cc5262b25267c}
+
+\item 
+\hypertarget{class_kaupunki_a5860256033079dda15f83c64b5e39a27}{virtual void {\bfseries poista\-Toimija} (std\-::shared\-\_\-ptr$<$ Rajapinta\-::\-Toimija\-R\-P $>$ toimija)}\label{class_kaupunki_a5860256033079dda15f83c64b5e39a27}
+
+\item 
+\hypertarget{class_kaupunki_aeb24cf16b8f512f0a6de6599e9d70d51}{virtual void {\bfseries toimija\-Tuhottu} (std\-::shared\-\_\-ptr$<$ Rajapinta\-::\-Toimija\-R\-P $>$ toimija)}\label{class_kaupunki_aeb24cf16b8f512f0a6de6599e9d70d51}
+
+\item 
+\hypertarget{class_kaupunki_ad889a1de8dfff75075c38e41a8bf0510}{virtual bool {\bfseries loytyyko\-Toimija} (std\-::shared\-\_\-ptr$<$ Rajapinta\-::\-Toimija\-R\-P $>$ toimija) const }\label{class_kaupunki_ad889a1de8dfff75075c38e41a8bf0510}
+
+\item 
+\hypertarget{class_kaupunki_a93addb75ff5d661c627362bd93273040}{virtual void {\bfseries toimija\-Liikkunut} (std\-::shared\-\_\-ptr$<$ Rajapinta\-::\-Toimija\-R\-P $>$ toimija)}\label{class_kaupunki_a93addb75ff5d661c627362bd93273040}
+
+\item 
+\hypertarget{class_kaupunki_a3cea39227b97f25a8ea09f9540f0bba4}{virtual std\-::vector\\*
+$<$ std\-::shared\-\_\-ptr\\*
+$<$ Rajapinta\-::\-Toimija\-R\-P $>$ $>$ {\bfseries anna\-Toimijat\-Lahella} (Rajapinta\-::\-Sijainti paikka) const }\label{class_kaupunki_a3cea39227b97f25a8ea09f9540f0bba4}
+
+\item 
+\hypertarget{class_kaupunki_abc6aa12f2e33d21b0fb969467e9ed2ab}{virtual bool {\bfseries peli\-Loppunut} () const }\label{class_kaupunki_abc6aa12f2e33d21b0fb969467e9ed2ab}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_kaupunki_abbd4ebfe6854442610e5140023583c4d}{\index{Kaupunki@{Kaupunki}!ajasta\-Lopetus@{ajasta\-Lopetus}}
+\index{ajasta\-Lopetus@{ajasta\-Lopetus}!Kaupunki@{Kaupunki}}
+\subsubsection[{ajasta\-Lopetus}]{\setlength{\rightskip}{0pt plus 5cm}void Kaupunki\-::ajasta\-Lopetus (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [slot]}}}\label{class_kaupunki_abbd4ebfe6854442610e5140023583c4d}
+
+
+aloita\-Lopetus Käynnistää ajastimen joka X ajan kuluttua päättää pelin. Kutsutaan kun droonin ammukset loppuvat. 
+
+\begin{DoxyPrecond}{Precondition}
+Peli on käynnissä 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+Peli on ajastettu loppumaan 
+\end{DoxyPostcond}
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{kaupunki_8hh}{kaupunki.\-hh}\item 
+kaupunki.\-cpp\end{DoxyCompactItemize}

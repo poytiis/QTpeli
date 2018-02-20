@@ -1,0 +1,145 @@
+\hypertarget{class_nyssekuva}{\section{Nyssekuva Class Reference}
+\label{class_nyssekuva}\index{Nyssekuva@{Nyssekuva}}
+}
+Inheritance diagram for Nyssekuva\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_nyssekuva}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_nyssekuva_a15c81255af4f21daabdc79eb7369c274}{Nyssekuva} (std\-::shared\-\_\-ptr$<$ Rajapinta\-::\-Toimija\-R\-P $>$ nysse)
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_nyssekuva}{Nyssekuva} Luokan rakentaja. \end{DoxyCompactList}\item 
+\hyperlink{class_nyssekuva_a042ecc1e24eec8b66458c638fd6b68b1}{$\sim$\-Nyssekuva} ()
+\begin{DoxyCompactList}\small\item\em Luokan purkaja. \end{DoxyCompactList}\item 
+void \hyperlink{class_nyssekuva_aab047a42f0f69bf37daded779a1a1dee}{osuma} ()
+\begin{DoxyCompactList}\small\item\em osuma Kutsutaan kun nysse on ottanut osuman ammuksesta. Ilmoittaa pelilogiikan nysselle tuhoutumisesta (Tuhoaa toimijan ja kertoo kaupungille) \end{DoxyCompactList}\item 
+void \hyperlink{class_nyssekuva_a02b8f283b6ccacd0afe435d9eccd728b}{kerro\-Kaupunki} (Rajapinta\-::\-Kaupunki\-R\-P $\ast$kaupunki)
+\begin{DoxyCompactList}\small\item\em kerro\-Kaupunki kertoo Nyssekuvalle missä kaupungissa se on. \end{DoxyCompactList}\item 
+void \hyperlink{class_nyssekuva_a4d88edacd7a24757ad89253fe95caa5e}{tuhoudu} ()
+\begin{DoxyCompactList}\small\item\em tuhoudu Vaihtaa nyssekuvan ulkoasun tuhoutuneeseen nysseen. \end{DoxyCompactList}\item 
+bool \hyperlink{class_nyssekuva_acfa9ae5331b43f8bfec01d8c0c57c221}{tuhottu} ()
+\begin{DoxyCompactList}\small\item\em tuhottu Kertoo onko Nyssekuvan ulkoasu tuhoutunut nysse. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_nyssekuva_a597cf4646389f6bca4fabdd96fc24b53}{void {\bfseries paint} (Q\-Painter $\ast$painter, const Q\-Style\-Option\-Graphics\-Item $\ast$option, Q\-Widget $\ast$widget)}\label{class_nyssekuva_a597cf4646389f6bca4fabdd96fc24b53}
+
+\item 
+\hypertarget{class_nyssekuva_a00b6cd60afdf8244320e5995fa639674}{virtual Q\-Rect\-F {\bfseries bounding\-Rect} () const }\label{class_nyssekuva_a00b6cd60afdf8244320e5995fa639674}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_nyssekuva_a15c81255af4f21daabdc79eb7369c274}{\index{Nyssekuva@{Nyssekuva}!Nyssekuva@{Nyssekuva}}
+\index{Nyssekuva@{Nyssekuva}!Nyssekuva@{Nyssekuva}}
+\subsubsection[{Nyssekuva}]{\setlength{\rightskip}{0pt plus 5cm}Nyssekuva\-::\-Nyssekuva (
+\begin{DoxyParamCaption}
+\item[{std\-::shared\-\_\-ptr$<$ Rajapinta\-::\-Toimija\-R\-P $>$}]{nysse}
+\end{DoxyParamCaption}
+)}}\label{class_nyssekuva_a15c81255af4f21daabdc79eb7369c274}
+
+
+\hyperlink{class_nyssekuva}{Nyssekuva} Luokan rakentaja. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em nysse} & osoitin kuvastettavaan nysseen \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_nyssekuva_a042ecc1e24eec8b66458c638fd6b68b1}{\index{Nyssekuva@{Nyssekuva}!$\sim$\-Nyssekuva@{$\sim$\-Nyssekuva}}
+\index{$\sim$\-Nyssekuva@{$\sim$\-Nyssekuva}!Nyssekuva@{Nyssekuva}}
+\subsubsection[{$\sim$\-Nyssekuva}]{\setlength{\rightskip}{0pt plus 5cm}Nyssekuva\-::$\sim$\-Nyssekuva (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_nyssekuva_a042ecc1e24eec8b66458c638fd6b68b1}
+
+
+Luokan purkaja. 
+
+\begin{DoxyPostcond}{Postcondition}
+\hyperlink{class_nyssekuva}{Nyssekuva} on tuhottu oikein 
+\end{DoxyPostcond}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_nyssekuva_a02b8f283b6ccacd0afe435d9eccd728b}{\index{Nyssekuva@{Nyssekuva}!kerro\-Kaupunki@{kerro\-Kaupunki}}
+\index{kerro\-Kaupunki@{kerro\-Kaupunki}!Nyssekuva@{Nyssekuva}}
+\subsubsection[{kerro\-Kaupunki}]{\setlength{\rightskip}{0pt plus 5cm}void Nyssekuva\-::kerro\-Kaupunki (
+\begin{DoxyParamCaption}
+\item[{Rajapinta\-::\-Kaupunki\-R\-P $\ast$}]{kaupunki}
+\end{DoxyParamCaption}
+)}}\label{class_nyssekuva_a02b8f283b6ccacd0afe435d9eccd728b}
+
+
+kerro\-Kaupunki kertoo Nyssekuvalle missä kaupungissa se on. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em kaupunki} & Kaupunki\-R\-P\-:n toteuttava kaupunkiolio \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPostcond}{Postcondition}
+kaupunki\-\_\- asetettu. Poikkeustakuu\-: nothrow 
+\end{DoxyPostcond}
+\hypertarget{class_nyssekuva_aab047a42f0f69bf37daded779a1a1dee}{\index{Nyssekuva@{Nyssekuva}!osuma@{osuma}}
+\index{osuma@{osuma}!Nyssekuva@{Nyssekuva}}
+\subsubsection[{osuma}]{\setlength{\rightskip}{0pt plus 5cm}void Nyssekuva\-::osuma (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_nyssekuva_aab047a42f0f69bf37daded779a1a1dee}
+
+
+osuma Kutsutaan kun nysse on ottanut osuman ammuksesta. Ilmoittaa pelilogiikan nysselle tuhoutumisesta (Tuhoaa toimijan ja kertoo kaupungille) 
+
+\begin{DoxyPrecond}{Precondition}
+\hyperlink{class_nyssekuva}{Nyssekuva} on ottanut osuman 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+Nysse on tuhottu. Poikkeustakuu\-: perus 
+\end{DoxyPostcond}
+\hypertarget{class_nyssekuva_acfa9ae5331b43f8bfec01d8c0c57c221}{\index{Nyssekuva@{Nyssekuva}!tuhottu@{tuhottu}}
+\index{tuhottu@{tuhottu}!Nyssekuva@{Nyssekuva}}
+\subsubsection[{tuhottu}]{\setlength{\rightskip}{0pt plus 5cm}bool Nyssekuva\-::tuhottu (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_nyssekuva_acfa9ae5331b43f8bfec01d8c0c57c221}
+
+
+tuhottu Kertoo onko Nyssekuvan ulkoasu tuhoutunut nysse. 
+
+\begin{DoxyReturn}{Returns}
+Boolean arvo 
+\end{DoxyReturn}
+\begin{DoxyPostcond}{Postcondition}
+Poikkeustakuu\-: nothrow 
+\end{DoxyPostcond}
+\hypertarget{class_nyssekuva_a4d88edacd7a24757ad89253fe95caa5e}{\index{Nyssekuva@{Nyssekuva}!tuhoudu@{tuhoudu}}
+\index{tuhoudu@{tuhoudu}!Nyssekuva@{Nyssekuva}}
+\subsubsection[{tuhoudu}]{\setlength{\rightskip}{0pt plus 5cm}void Nyssekuva\-::tuhoudu (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_nyssekuva_a4d88edacd7a24757ad89253fe95caa5e}
+
+
+tuhoudu Vaihtaa nyssekuvan ulkoasun tuhoutuneeseen nysseen. 
+
+\begin{DoxyPrecond}{Precondition}
+-\/ 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+Ulkoasu on tuhoutunut nysse. Poikkeustakuu\-: nothrow 
+\end{DoxyPostcond}
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{nyssekuva_8hh}{nyssekuva.\-hh}\item 
+nyssekuva.\-cpp\end{DoxyCompactItemize}

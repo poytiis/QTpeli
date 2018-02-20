@@ -1,0 +1,128 @@
+\hypertarget{class_laser}{\section{Laser Class Reference}
+\label{class_laser}\index{Laser@{Laser}}
+}
+Inheritance diagram for Laser\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{class_laser}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_laser_a1e883d8dab1efcaf1ef692056664b080}{Laser} (Q\-Graphics\-Item $\ast$parent, qreal suunta)
+\begin{DoxyCompactList}\small\item\em Laserin rakentaja. \end{DoxyCompactList}\item 
+\hyperlink{class_laser_aa9baee5ed9775426e0b1d563c4687711}{$\sim$\-Laser} ()
+\begin{DoxyCompactList}\small\item\em Laserin purkaja. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_laser_aba0ac53926bf1622172713549e6ded45}{void {\bfseries paint} (Q\-Painter $\ast$painter, const Q\-Style\-Option\-Graphics\-Item $\ast$option, Q\-Widget $\ast$widget)}\label{class_laser_aba0ac53926bf1622172713549e6ded45}
+
+\item 
+\hypertarget{class_laser_aae435ce15a186fa1dc23892ceaa2fa20}{virtual Q\-Rect\-F {\bfseries bounding\-Rect} () const override}\label{class_laser_aae435ce15a186fa1dc23892ceaa2fa20}
+
+\item 
+virtual void \hyperlink{class_laser_a37b0776365b937150549db54fec6ef8d}{aseta\-Ammuskuva} ()
+\begin{DoxyCompactList}\small\item\em aseta\-Ammuskuva asettaa ammuksen ulkoasun. Toteutettava periytetyssä luokassa, asetettava ammuskuva on Q\-Image Ammus\-::ammuskuva. \end{DoxyCompactList}\item 
+virtual bool \hyperlink{class_laser_af022ce6822c0303e886812823e48ea82}{tarkista\-Osuma} ()
+\begin{DoxyCompactList}\small\item\em tarkista\-Osuma tarkistaa osuuko ammus nysseen ja osuttaessa ilmoittaa sekä ammukselle että nysselle osumasta. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_laser_a1e883d8dab1efcaf1ef692056664b080}{\index{Laser@{Laser}!Laser@{Laser}}
+\index{Laser@{Laser}!Laser@{Laser}}
+\subsubsection[{Laser}]{\setlength{\rightskip}{0pt plus 5cm}Laser\-::\-Laser (
+\begin{DoxyParamCaption}
+\item[{Q\-Graphics\-Item $\ast$}]{parent, }
+\item[{qreal}]{suunta}
+\end{DoxyParamCaption}
+)}}\label{class_laser_a1e883d8dab1efcaf1ef692056664b080}
+
+
+Laserin rakentaja. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em parent} & laserin ampunut toimija, yleensä drooni \\
+\hline
+{\em suunta} & suunta minne laser lähtee \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPostcond}{Postcondition}
+\hyperlink{class_laser}{Laser} luotu onnistuneesti ja ajoitettu tuhoutumaan 200ms kuluttua. Poikkeustakuu\-: perus 
+\end{DoxyPostcond}
+\hypertarget{class_laser_aa9baee5ed9775426e0b1d563c4687711}{\index{Laser@{Laser}!$\sim$\-Laser@{$\sim$\-Laser}}
+\index{$\sim$\-Laser@{$\sim$\-Laser}!Laser@{Laser}}
+\subsubsection[{$\sim$\-Laser}]{\setlength{\rightskip}{0pt plus 5cm}Laser\-::$\sim$\-Laser (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_laser_aa9baee5ed9775426e0b1d563c4687711}
+
+
+Laserin purkaja. 
+
+\begin{DoxyPostcond}{Postcondition}
+\hyperlink{class_laser}{Laser} on tuhottu oikein 
+\end{DoxyPostcond}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_laser_a37b0776365b937150549db54fec6ef8d}{\index{Laser@{Laser}!aseta\-Ammuskuva@{aseta\-Ammuskuva}}
+\index{aseta\-Ammuskuva@{aseta\-Ammuskuva}!Laser@{Laser}}
+\subsubsection[{aseta\-Ammuskuva}]{\setlength{\rightskip}{0pt plus 5cm}void Laser\-::aseta\-Ammuskuva (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}}\label{class_laser_a37b0776365b937150549db54fec6ef8d}
+
+
+aseta\-Ammuskuva asettaa ammuksen ulkoasun. Toteutettava periytetyssä luokassa, asetettava ammuskuva on Q\-Image Ammus\-::ammuskuva. 
+
+\begin{DoxyPrecond}{Precondition}
+-\/ 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+Ammus\-::ammuskuva on asetettu. Poikkeustakuu\-: perus 
+\end{DoxyPostcond}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Peli\-Virhe} & Ammuskuvan avaaminen epäonnistui. \\
+\hline
+\end{DoxyExceptions}
+
+
+Implements \hyperlink{class_ammus_a637789fc7748679d5e6ceeb7bb2d24a4}{Ammus}.
+
+\hypertarget{class_laser_af022ce6822c0303e886812823e48ea82}{\index{Laser@{Laser}!tarkista\-Osuma@{tarkista\-Osuma}}
+\index{tarkista\-Osuma@{tarkista\-Osuma}!Laser@{Laser}}
+\subsubsection[{tarkista\-Osuma}]{\setlength{\rightskip}{0pt plus 5cm}bool Laser\-::tarkista\-Osuma (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}}\label{class_laser_af022ce6822c0303e886812823e48ea82}
+
+
+tarkista\-Osuma tarkistaa osuuko ammus nysseen ja osuttaessa ilmoittaa sekä ammukselle että nysselle osumasta. 
+
+\begin{DoxyPrecond}{Precondition}
+\hyperlink{class_ammus}{Ammus} on alustettu 
+\end{DoxyPrecond}
+\begin{DoxyReturn}{Returns}
+true mikäli ammus osui, muuten false 
+\end{DoxyReturn}
+\begin{DoxyPostcond}{Postcondition}
+Poikkeustakuu\-: perus 
+\end{DoxyPostcond}
+
+
+Reimplemented from \hyperlink{class_ammus_a60d382b563f273bb90c60c4a5b396210}{Ammus}.
+
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{laser_8hh}{laser.\-hh}\item 
+laser.\-cpp\end{DoxyCompactItemize}

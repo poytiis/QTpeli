@@ -1,0 +1,119 @@
+\contentsline {chapter}{\numberline {1}Hierarchical Index}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Class Hierarchy}{1}{section.1.1}
+\contentsline {chapter}{\numberline {2}Class Index}{3}{chapter.2}
+\contentsline {section}{\numberline {2.1}Class List}{3}{section.2.1}
+\contentsline {chapter}{\numberline {3}File Index}{5}{chapter.3}
+\contentsline {section}{\numberline {3.1}File List}{5}{section.3.1}
+\contentsline {chapter}{\numberline {4}Class Documentation}{7}{chapter.4}
+\contentsline {section}{\numberline {4.1}Aly\discretionary {-}{}{}Matkustaja Class Reference}{7}{section.4.1}
+\contentsline {section}{\numberline {4.2}Ammus Class Reference}{7}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Constructor \& Destructor Documentation}{8}{subsection.4.2.1}
+\contentsline {subsubsection}{\numberline {4.2.1.1}Ammus}{8}{subsubsection.4.2.1.1}
+\contentsline {subsection}{\numberline {4.2.2}Member Function Documentation}{9}{subsection.4.2.2}
+\contentsline {subsubsection}{\numberline {4.2.2.1}alusta\discretionary {-}{}{}Ammus}{9}{subsubsection.4.2.2.1}
+\contentsline {subsubsection}{\numberline {4.2.2.2}aseta\discretionary {-}{}{}Ammuskuva}{9}{subsubsection.4.2.2.2}
+\contentsline {subsubsection}{\numberline {4.2.2.3}etene}{9}{subsubsection.4.2.2.3}
+\contentsline {subsubsection}{\numberline {4.2.2.4}osuma}{10}{subsubsection.4.2.2.4}
+\contentsline {subsubsection}{\numberline {4.2.2.5}suunta\discretionary {-}{}{}Piste}{10}{subsubsection.4.2.2.5}
+\contentsline {subsubsection}{\numberline {4.2.2.6}tarkista\discretionary {-}{}{}Osuma}{10}{subsubsection.4.2.2.6}
+\contentsline {subsubsection}{\numberline {4.2.2.7}tuhoa\discretionary {-}{}{}Ammus}{11}{subsubsection.4.2.2.7}
+\contentsline {subsubsection}{\numberline {4.2.2.8}ulko\discretionary {-}{}{}Osuma}{11}{subsubsection.4.2.2.8}
+\contentsline {section}{\numberline {4.3}Drooni Class Reference}{11}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Constructor \& Destructor Documentation}{13}{subsection.4.3.1}
+\contentsline {subsubsection}{\numberline {4.3.1.1}Drooni}{13}{subsubsection.4.3.1.1}
+\contentsline {subsubsection}{\numberline {4.3.1.2}$\sim $\discretionary {-}{}{}Drooni}{13}{subsubsection.4.3.1.2}
+\contentsline {subsection}{\numberline {4.3.2}Member Function Documentation}{13}{subsection.4.3.2}
+\contentsline {subsubsection}{\numberline {4.3.2.1}ala\discretionary {-}{}{}Kaantya\discretionary {-}{}{}Myota}{13}{subsubsection.4.3.2.1}
+\contentsline {subsubsection}{\numberline {4.3.2.2}ala\discretionary {-}{}{}Kaantya\discretionary {-}{}{}Vasta}{13}{subsubsection.4.3.2.2}
+\contentsline {subsubsection}{\numberline {4.3.2.3}ala\discretionary {-}{}{}Liikkua\discretionary {-}{}{}Eteen}{14}{subsubsection.4.3.2.3}
+\contentsline {subsubsection}{\numberline {4.3.2.4}ala\discretionary {-}{}{}Liikkua\discretionary {-}{}{}Taakse}{14}{subsubsection.4.3.2.4}
+\contentsline {subsubsection}{\numberline {4.3.2.5}ammu}{14}{subsubsection.4.3.2.5}
+\contentsline {subsubsection}{\numberline {4.3.2.6}ammuksia\discretionary {-}{}{}Jaljella}{14}{subsubsection.4.3.2.6}
+\contentsline {subsubsection}{\numberline {4.3.2.7}drooni\discretionary {-}{}{}Ampunut}{15}{subsubsection.4.3.2.7}
+\contentsline {subsubsection}{\numberline {4.3.2.8}drooni\discretionary {-}{}{}Liikkunut}{15}{subsubsection.4.3.2.8}
+\contentsline {subsubsection}{\numberline {4.3.2.9}key\discretionary {-}{}{}Press\discretionary {-}{}{}Event}{15}{subsubsection.4.3.2.9}
+\contentsline {subsubsection}{\numberline {4.3.2.10}key\discretionary {-}{}{}Release\discretionary {-}{}{}Event}{15}{subsubsection.4.3.2.10}
+\contentsline {subsubsection}{\numberline {4.3.2.11}liiku\discretionary {-}{}{}Sulavasti}{15}{subsubsection.4.3.2.11}
+\contentsline {subsubsection}{\numberline {4.3.2.12}lopeta\discretionary {-}{}{}Eteen\discretionary {-}{}{}Liikkuminen}{16}{subsubsection.4.3.2.12}
+\contentsline {subsubsection}{\numberline {4.3.2.13}lopeta\discretionary {-}{}{}Kaannos\discretionary {-}{}{}Myota}{16}{subsubsection.4.3.2.13}
+\contentsline {subsubsection}{\numberline {4.3.2.14}lopeta\discretionary {-}{}{}Kaannos\discretionary {-}{}{}Vasta}{16}{subsubsection.4.3.2.14}
+\contentsline {subsubsection}{\numberline {4.3.2.15}lopeta\discretionary {-}{}{}Taakse\discretionary {-}{}{}Liikkuminen}{16}{subsubsection.4.3.2.15}
+\contentsline {subsubsection}{\numberline {4.3.2.16}valitse\discretionary {-}{}{}Laser}{17}{subsubsection.4.3.2.16}
+\contentsline {subsubsection}{\numberline {4.3.2.17}valitse\discretionary {-}{}{}Miina}{17}{subsubsection.4.3.2.17}
+\contentsline {subsubsection}{\numberline {4.3.2.18}valitse\discretionary {-}{}{}Rynkky}{17}{subsubsection.4.3.2.18}
+\contentsline {section}{\numberline {4.4}Kaupunki Class Reference}{17}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Member Function Documentation}{18}{subsection.4.4.1}
+\contentsline {subsubsection}{\numberline {4.4.1.1}ajasta\discretionary {-}{}{}Lopetus}{18}{subsubsection.4.4.1.1}
+\contentsline {section}{\numberline {4.5}Laser Class Reference}{18}{section.4.5}
+\contentsline {subsection}{\numberline {4.5.1}Constructor \& Destructor Documentation}{19}{subsection.4.5.1}
+\contentsline {subsubsection}{\numberline {4.5.1.1}Laser}{19}{subsubsection.4.5.1.1}
+\contentsline {subsubsection}{\numberline {4.5.1.2}$\sim $\discretionary {-}{}{}Laser}{19}{subsubsection.4.5.1.2}
+\contentsline {subsection}{\numberline {4.5.2}Member Function Documentation}{19}{subsection.4.5.2}
+\contentsline {subsubsection}{\numberline {4.5.2.1}aseta\discretionary {-}{}{}Ammuskuva}{19}{subsubsection.4.5.2.1}
+\contentsline {subsubsection}{\numberline {4.5.2.2}tarkista\discretionary {-}{}{}Osuma}{20}{subsubsection.4.5.2.2}
+\contentsline {section}{\numberline {4.6}Lopetus\discretionary {-}{}{}Dialog Class Reference}{20}{section.4.6}
+\contentsline {section}{\numberline {4.7}Miina Class Reference}{21}{section.4.7}
+\contentsline {subsection}{\numberline {4.7.1}Constructor \& Destructor Documentation}{21}{subsection.4.7.1}
+\contentsline {subsubsection}{\numberline {4.7.1.1}Miina}{21}{subsubsection.4.7.1.1}
+\contentsline {subsubsection}{\numberline {4.7.1.2}$\sim $\discretionary {-}{}{}Miina}{22}{subsubsection.4.7.1.2}
+\contentsline {subsection}{\numberline {4.7.2}Member Function Documentation}{22}{subsection.4.7.2}
+\contentsline {subsubsection}{\numberline {4.7.2.1}alusta\discretionary {-}{}{}Ammus}{22}{subsubsection.4.7.2.1}
+\contentsline {subsubsection}{\numberline {4.7.2.2}aseta\discretionary {-}{}{}Ammuskuva}{22}{subsubsection.4.7.2.2}
+\contentsline {subsubsection}{\numberline {4.7.2.3}osuma}{23}{subsubsection.4.7.2.3}
+\contentsline {subsubsection}{\numberline {4.7.2.4}tarkista\discretionary {-}{}{}Osuma}{23}{subsubsection.4.7.2.4}
+\contentsline {section}{\numberline {4.8}Nyssekuva Class Reference}{23}{section.4.8}
+\contentsline {subsection}{\numberline {4.8.1}Constructor \& Destructor Documentation}{24}{subsection.4.8.1}
+\contentsline {subsubsection}{\numberline {4.8.1.1}Nyssekuva}{24}{subsubsection.4.8.1.1}
+\contentsline {subsubsection}{\numberline {4.8.1.2}$\sim $\discretionary {-}{}{}Nyssekuva}{24}{subsubsection.4.8.1.2}
+\contentsline {subsection}{\numberline {4.8.2}Member Function Documentation}{24}{subsection.4.8.2}
+\contentsline {subsubsection}{\numberline {4.8.2.1}kerro\discretionary {-}{}{}Kaupunki}{24}{subsubsection.4.8.2.1}
+\contentsline {subsubsection}{\numberline {4.8.2.2}osuma}{25}{subsubsection.4.8.2.2}
+\contentsline {subsubsection}{\numberline {4.8.2.3}tuhottu}{25}{subsubsection.4.8.2.3}
+\contentsline {subsubsection}{\numberline {4.8.2.4}tuhoudu}{25}{subsubsection.4.8.2.4}
+\contentsline {section}{\numberline {4.9}Peli\discretionary {-}{}{}Alue Class Reference}{25}{section.4.9}
+\contentsline {subsection}{\numberline {4.9.1}Member Function Documentation}{26}{subsection.4.9.1}
+\contentsline {subsubsection}{\numberline {4.9.1.1}lisaa\discretionary {-}{}{}Drooni}{26}{subsubsection.4.9.1.1}
+\contentsline {section}{\numberline {4.10}Peli\discretionary {-}{}{}Ikkuna Class Reference}{26}{section.4.10}
+\contentsline {subsection}{\numberline {4.10.1}Constructor \& Destructor Documentation}{27}{subsection.4.10.1}
+\contentsline {subsubsection}{\numberline {4.10.1.1}Peli\discretionary {-}{}{}Ikkuna}{27}{subsubsection.4.10.1.1}
+\contentsline {subsubsection}{\numberline {4.10.1.2}$\sim $\discretionary {-}{}{}Peli\discretionary {-}{}{}Ikkuna}{27}{subsubsection.4.10.1.2}
+\contentsline {subsection}{\numberline {4.10.2}Member Function Documentation}{27}{subsection.4.10.2}
+\contentsline {subsubsection}{\numberline {4.10.2.1}aseta\discretionary {-}{}{}Kartta}{27}{subsubsection.4.10.2.1}
+\contentsline {subsubsection}{\numberline {4.10.2.2}aseta\discretionary {-}{}{}Status}{28}{subsubsection.4.10.2.2}
+\contentsline {subsubsection}{\numberline {4.10.2.3}lisaa\discretionary {-}{}{}\_\discretionary {-}{}{}nysse}{28}{subsubsection.4.10.2.3}
+\contentsline {subsubsection}{\numberline {4.10.2.4}lisaa\discretionary {-}{}{}\_\discretionary {-}{}{}pysakki}{28}{subsubsection.4.10.2.4}
+\contentsline {subsubsection}{\numberline {4.10.2.5}lisaa\discretionary {-}{}{}Drooni}{29}{subsubsection.4.10.2.5}
+\contentsline {subsubsection}{\numberline {4.10.2.6}nayta\discretionary {-}{}{}Toplista}{29}{subsubsection.4.10.2.6}
+\contentsline {subsubsection}{\numberline {4.10.2.7}Paivita\discretionary {-}{}{}Tulokset}{29}{subsubsection.4.10.2.7}
+\contentsline {section}{\numberline {4.11}Rynnakkokivaari Class Reference}{30}{section.4.11}
+\contentsline {subsection}{\numberline {4.11.1}Constructor \& Destructor Documentation}{30}{subsection.4.11.1}
+\contentsline {subsubsection}{\numberline {4.11.1.1}Rynnakkokivaari}{30}{subsubsection.4.11.1.1}
+\contentsline {subsubsection}{\numberline {4.11.1.2}$\sim $\discretionary {-}{}{}Rynnakkokivaari}{31}{subsubsection.4.11.1.2}
+\contentsline {subsection}{\numberline {4.11.2}Member Function Documentation}{31}{subsection.4.11.2}
+\contentsline {subsubsection}{\numberline {4.11.2.1}aseta\discretionary {-}{}{}Ammuskuva}{31}{subsubsection.4.11.2.1}
+\contentsline {section}{\numberline {4.12}Tilasto Class Reference}{31}{section.4.12}
+\contentsline {subsection}{\numberline {4.12.1}Member Function Documentation}{32}{subsection.4.12.1}
+\contentsline {subsubsection}{\numberline {4.12.1.1}kirjoita\discretionary {-}{}{}Tiedostoon}{32}{subsubsection.4.12.1.1}
+\contentsline {subsubsection}{\numberline {4.12.1.2}lue\discretionary {-}{}{}\_\discretionary {-}{}{}tiedosto}{32}{subsubsection.4.12.1.2}
+\contentsline {subsubsection}{\numberline {4.12.1.3}paivita\discretionary {-}{}{}\_\discretionary {-}{}{}tilasto}{33}{subsubsection.4.12.1.3}
+\contentsline {subsubsection}{\numberline {4.12.1.4}selvita\discretionary {-}{}{}Listasijoitus}{33}{subsubsection.4.12.1.4}
+\contentsline {chapter}{\numberline {5}File Documentation}{35}{chapter.5}
+\contentsline {section}{\numberline {5.1}ammus.\discretionary {-}{}{}hh File Reference}{35}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Detailed Description}{35}{subsection.5.1.1}
+\contentsline {section}{\numberline {5.2}drooni.\discretionary {-}{}{}hh File Reference}{35}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Detailed Description}{36}{subsection.5.2.1}
+\contentsline {section}{\numberline {5.3}kaupunki.\discretionary {-}{}{}hh File Reference}{36}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Detailed Description}{36}{subsection.5.3.1}
+\contentsline {section}{\numberline {5.4}laser.\discretionary {-}{}{}hh File Reference}{36}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}Detailed Description}{36}{subsection.5.4.1}
+\contentsline {section}{\numberline {5.5}miina.\discretionary {-}{}{}hh File Reference}{37}{section.5.5}
+\contentsline {subsection}{\numberline {5.5.1}Detailed Description}{37}{subsection.5.5.1}
+\contentsline {section}{\numberline {5.6}nyssekuva.\discretionary {-}{}{}hh File Reference}{37}{section.5.6}
+\contentsline {subsection}{\numberline {5.6.1}Detailed Description}{37}{subsection.5.6.1}
+\contentsline {section}{\numberline {5.7}pelialue.\discretionary {-}{}{}hh File Reference}{37}{section.5.7}
+\contentsline {subsection}{\numberline {5.7.1}Detailed Description}{38}{subsection.5.7.1}
+\contentsline {section}{\numberline {5.8}peliikkuna.\discretionary {-}{}{}hh File Reference}{38}{section.5.8}
+\contentsline {subsection}{\numberline {5.8.1}Detailed Description}{38}{subsection.5.8.1}
+\contentsline {section}{\numberline {5.9}rynnakkokivaari.\discretionary {-}{}{}hh File Reference}{38}{section.5.9}
+\contentsline {subsection}{\numberline {5.9.1}Detailed Description}{38}{subsection.5.9.1}
+\contentsline {part}{Index}{39}{section*.41}

@@ -1,0 +1,19 @@
+- Yksikkˆtestit		- Teemu hoitaa
+- Kaksi lis‰asetta	- Juho hoitanut
+- Ammusraja -> Pelin p‰‰ttyminen?
+- Minimaalinen ruudunp‰ivitys & Sulava ruudunp‰ivitys	-Minimaalinen kai toteutettu, Sulava ja minimaalinen ristiriidassa? Juho hoitanut
+- Tilaston ja top10 viimeistely		- Teemu hoitaa(?)
+- Poikkeustakuut kuntoot & Checkkaa invariantit
+- Koodin siistiminen
+
+- Droonin smoothit kontrollit 	- 80 % done, viel‰ klikkaaminen kartalle, Juho hoitaa
+- Matkustaja lkm kartalle?	- Tehd‰‰nkˆ t‰‰? Ois aika cool
+
+- DOKUMENTAATIO
+- Sopimussuunnittelua?
+
+UUTTA 21.4. To
+	- Huomioi vain pelialueella olevat nysset
+	- UI:n siistiminen?
+	- Upgrade shop? Voisi toteuttaa vaikka niin ett‰ lis‰t‰‰n jokin "valuutta" tai k‰ytet‰‰n esim. tuhottuja nyssej‰?
+	- Pelin lopetus. Miten, milloin, mit‰ tapahtuu?

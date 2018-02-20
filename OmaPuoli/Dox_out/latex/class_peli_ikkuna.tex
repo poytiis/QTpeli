@@ -1,0 +1,247 @@
+\hypertarget{class_peli_ikkuna}{\section{Peli\-Ikkuna Class Reference}
+\label{class_peli_ikkuna}\index{Peli\-Ikkuna@{Peli\-Ikkuna}}
+}
+Inheritance diagram for Peli\-Ikkuna\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_peli_ikkuna}
+\end{center}
+\end{figure}
+\subsection*{Public Slots}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{class_peli_ikkuna_a599ff7ea4e7065407a4cfc376a9e7a4d}{void {\bfseries liikuta\-Viewport} (Q\-Graphics\-Item $\ast$kohde)}\label{class_peli_ikkuna_a599ff7ea4e7065407a4cfc376a9e7a4d}
+
+\item 
+\hypertarget{class_peli_ikkuna_a646a8059ff792d36e7dd7c7cc9339945}{void {\bfseries paivita\-Viewport} ()}\label{class_peli_ikkuna_a646a8059ff792d36e7dd7c7cc9339945}
+
+\item 
+\hypertarget{class_peli_ikkuna_a14e0c209058d3044db9b782c8b4f4691}{void {\bfseries paivita\-Ammukset} (int ase, int ammuksia)}\label{class_peli_ikkuna_a14e0c209058d3044db9b782c8b4f4691}
+
+\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_peli_ikkuna_af57dc5037e1bb4d6056ca9923721ec7d}{Peli\-Ikkuna} (Q\-Widget $\ast$parent=0)
+\begin{DoxyCompactList}\small\item\em \hyperlink{class_peli_ikkuna}{Peli\-Ikkuna} luo uuden peli-\/ikkunan. \end{DoxyCompactList}\item 
+\hyperlink{class_peli_ikkuna_a185ea9d8d778bace5f12ea619afad966}{$\sim$\-Peli\-Ikkuna} ()
+\begin{DoxyCompactList}\small\item\em Peli\-Ikkunan purkaja. \end{DoxyCompactList}\item 
+void \hyperlink{class_peli_ikkuna_a42e636f33ca2f6b600a9692eb96c04c0}{aseta\-Kartta} (Q\-Image \&kartta)
+\begin{DoxyCompactList}\small\item\em aseta\-Kartta Asettaa pelialueen pohjakartan. \end{DoxyCompactList}\item 
+Q\-Graphics\-Pixmap\-Item $\ast$ \hyperlink{class_peli_ikkuna_ace31f5abe08036d2fa3830632f857a7d}{lisaa\-\_\-pysakki} (std\-::shared\-\_\-ptr$<$ Rajapinta\-::\-Pysakki\-R\-P $>$ pysakkiptr)
+\begin{DoxyCompactList}\small\item\em lisaa\-\_\-pysakki Lisää pysäkin kartalle \end{DoxyCompactList}\item 
+\hyperlink{class_nyssekuva}{Nyssekuva} $\ast$ \hyperlink{class_peli_ikkuna_a3bf868fa2f549d6c3f7fde5ef1e573e0}{lisaa\-\_\-nysse} (std\-::shared\-\_\-ptr$<$ Rajapinta\-::\-Toimija\-R\-P $>$ toimijaptr)
+\begin{DoxyCompactList}\small\item\em lisaa\-\_\-nysse Lisää nyssen kartalle \end{DoxyCompactList}\item 
+void \hyperlink{class_peli_ikkuna_a6529cb960d0a9c6c1ac809079b6518bc}{lisaa\-Drooni} (\hyperlink{class_drooni}{Drooni} $\ast$drooni)
+\begin{DoxyCompactList}\small\item\em lisaa\-Drooni Lisää droonin kartalle. \end{DoxyCompactList}\item 
+void \hyperlink{class_peli_ikkuna_aa3943ae9a2c3bd2109deab2b4f9c0c2a}{Paivita\-Tulokset} (std\-::vector$<$ int $>$ tulokset)
+\begin{DoxyCompactList}\small\item\em Paivita\-Tulokset Päivittää peliruudulla näytettävät tilastotiedot. \end{DoxyCompactList}\item 
+void \hyperlink{class_peli_ikkuna_abee8a20d0f7aa0efbaed03c65238fcab}{nayta\-Toplista} (std\-::vector$<$ Q\-String $>$ huipputulokset)
+\begin{DoxyCompactList}\small\item\em nayta\-Toplista Näyttää peliruudulla tämänhetkisen top10 tilanteen. \end{DoxyCompactList}\item 
+void \hyperlink{class_peli_ikkuna_a81a7526f0dfedfbd9ca0cfe72331d7d6}{aseta\-Status} (Q\-String status)
+\begin{DoxyCompactList}\small\item\em aseta\-Status Asettaa peliruudun statustekstin. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_peli_ikkuna_af57dc5037e1bb4d6056ca9923721ec7d}{\index{Peli\-Ikkuna@{Peli\-Ikkuna}!Peli\-Ikkuna@{Peli\-Ikkuna}}
+\index{Peli\-Ikkuna@{Peli\-Ikkuna}!PeliIkkuna@{Peli\-Ikkuna}}
+\subsubsection[{Peli\-Ikkuna}]{\setlength{\rightskip}{0pt plus 5cm}Peli\-Ikkuna\-::\-Peli\-Ikkuna (
+\begin{DoxyParamCaption}
+\item[{Q\-Widget $\ast$}]{parent = {\ttfamily 0}}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [explicit]}}}\label{class_peli_ikkuna_af57dc5037e1bb4d6056ca9923721ec7d}
+
+
+\hyperlink{class_peli_ikkuna}{Peli\-Ikkuna} luo uuden peli-\/ikkunan. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em parent} & peli-\/ikkunan vanhempi. Tässä ohjelmassa aina määrittämätön. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPostcond}{Postcondition}
+Ohjelmassa ei ole vielä peli-\/ikkuna oliota. 
+\end{DoxyPostcond}
+\hypertarget{class_peli_ikkuna_a185ea9d8d778bace5f12ea619afad966}{\index{Peli\-Ikkuna@{Peli\-Ikkuna}!$\sim$\-Peli\-Ikkuna@{$\sim$\-Peli\-Ikkuna}}
+\index{$\sim$\-Peli\-Ikkuna@{$\sim$\-Peli\-Ikkuna}!PeliIkkuna@{Peli\-Ikkuna}}
+\subsubsection[{$\sim$\-Peli\-Ikkuna}]{\setlength{\rightskip}{0pt plus 5cm}Peli\-Ikkuna\-::$\sim$\-Peli\-Ikkuna (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_peli_ikkuna_a185ea9d8d778bace5f12ea619afad966}
+
+
+Peli\-Ikkunan purkaja. 
+
+\begin{DoxyPostcond}{Postcondition}
+\hyperlink{class_peli_ikkuna}{Peli\-Ikkuna} on poistettu hallitusti. 
+\end{DoxyPostcond}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_peli_ikkuna_a42e636f33ca2f6b600a9692eb96c04c0}{\index{Peli\-Ikkuna@{Peli\-Ikkuna}!aseta\-Kartta@{aseta\-Kartta}}
+\index{aseta\-Kartta@{aseta\-Kartta}!PeliIkkuna@{Peli\-Ikkuna}}
+\subsubsection[{aseta\-Kartta}]{\setlength{\rightskip}{0pt plus 5cm}void Peli\-Ikkuna\-::aseta\-Kartta (
+\begin{DoxyParamCaption}
+\item[{Q\-Image \&}]{kartta}
+\end{DoxyParamCaption}
+)}}\label{class_peli_ikkuna_a42e636f33ca2f6b600a9692eb96c04c0}
+
+
+aseta\-Kartta Asettaa pelialueen pohjakartan. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em kartta} & Tampereen keskustan kartta \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+Karttaa ei ole vielä asetettu. Kartta on pelilogiikan tarjoama isokartta. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+Pohjakartta on asetettu. Poikkeustakuu\-: perus 
+\end{DoxyPostcond}
+\hypertarget{class_peli_ikkuna_a81a7526f0dfedfbd9ca0cfe72331d7d6}{\index{Peli\-Ikkuna@{Peli\-Ikkuna}!aseta\-Status@{aseta\-Status}}
+\index{aseta\-Status@{aseta\-Status}!PeliIkkuna@{Peli\-Ikkuna}}
+\subsubsection[{aseta\-Status}]{\setlength{\rightskip}{0pt plus 5cm}void Peli\-Ikkuna\-::aseta\-Status (
+\begin{DoxyParamCaption}
+\item[{Q\-String}]{status}
+\end{DoxyParamCaption}
+)}}\label{class_peli_ikkuna_a81a7526f0dfedfbd9ca0cfe72331d7d6}
+
+
+aseta\-Status Asettaa peliruudun statustekstin. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em status} & Haluttu statusteksti \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+-\/ 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+Statusteksti on asetettu. Poikkeustakuu\-: perus 
+\end{DoxyPostcond}
+\hypertarget{class_peli_ikkuna_a3bf868fa2f549d6c3f7fde5ef1e573e0}{\index{Peli\-Ikkuna@{Peli\-Ikkuna}!lisaa\-\_\-nysse@{lisaa\-\_\-nysse}}
+\index{lisaa\-\_\-nysse@{lisaa\-\_\-nysse}!PeliIkkuna@{Peli\-Ikkuna}}
+\subsubsection[{lisaa\-\_\-nysse}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Nyssekuva} $\ast$ Peli\-Ikkuna\-::lisaa\-\_\-nysse (
+\begin{DoxyParamCaption}
+\item[{std\-::shared\-\_\-ptr$<$ Rajapinta\-::\-Toimija\-R\-P $>$}]{toimijaptr}
+\end{DoxyParamCaption}
+)}}\label{class_peli_ikkuna_a3bf868fa2f549d6c3f7fde5ef1e573e0}
+
+
+lisaa\-\_\-nysse Lisää nyssen kartalle 
+
+
+\begin{DoxyParams}{Parameters}
+{\em toimijaptr} & Osoitin nysseolioon joka toteuttaa Toimija\-R\-P\-:n. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Osoitin \hyperlink{class_nyssekuva}{Nyssekuva} olioon. 
+\end{DoxyReturn}
+\begin{DoxyPrecond}{Precondition}
+toimijaptr on nysse ja löytyy kaupungista. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+Nysse on lisätty onnistuneesti. Poikkeustakuu\-: perus 
+\end{DoxyPostcond}
+\hypertarget{class_peli_ikkuna_ace31f5abe08036d2fa3830632f857a7d}{\index{Peli\-Ikkuna@{Peli\-Ikkuna}!lisaa\-\_\-pysakki@{lisaa\-\_\-pysakki}}
+\index{lisaa\-\_\-pysakki@{lisaa\-\_\-pysakki}!PeliIkkuna@{Peli\-Ikkuna}}
+\subsubsection[{lisaa\-\_\-pysakki}]{\setlength{\rightskip}{0pt plus 5cm}Q\-Graphics\-Pixmap\-Item $\ast$ Peli\-Ikkuna\-::lisaa\-\_\-pysakki (
+\begin{DoxyParamCaption}
+\item[{std\-::shared\-\_\-ptr$<$ Rajapinta\-::\-Pysakki\-R\-P $>$}]{pysakkiptr}
+\end{DoxyParamCaption}
+)}}\label{class_peli_ikkuna_ace31f5abe08036d2fa3830632f857a7d}
+
+
+lisaa\-\_\-pysakki Lisää pysäkin kartalle 
+
+
+\begin{DoxyParams}{Parameters}
+{\em pysakkiptr} & Osoitin Pysakki\-R\-P\-:n toteuttavaan pysäkkiolioon \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Palauttaa osoittimen pysäkkikuva olioon. 
+\end{DoxyReturn}
+\begin{DoxyPrecond}{Precondition}
+Pysäkkiä ei ole vielä piirretty 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+Pysäkki on lisätty onnistuneesti. Poikkeustakuu\-: perus 
+\end{DoxyPostcond}
+\hypertarget{class_peli_ikkuna_a6529cb960d0a9c6c1ac809079b6518bc}{\index{Peli\-Ikkuna@{Peli\-Ikkuna}!lisaa\-Drooni@{lisaa\-Drooni}}
+\index{lisaa\-Drooni@{lisaa\-Drooni}!PeliIkkuna@{Peli\-Ikkuna}}
+\subsubsection[{lisaa\-Drooni}]{\setlength{\rightskip}{0pt plus 5cm}void Peli\-Ikkuna\-::lisaa\-Drooni (
+\begin{DoxyParamCaption}
+\item[{{\bf Drooni} $\ast$}]{drooni}
+\end{DoxyParamCaption}
+)}}\label{class_peli_ikkuna_a6529cb960d0a9c6c1ac809079b6518bc}
+
+
+lisaa\-Drooni Lisää droonin kartalle. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em drooni} & Pelissä käytettävä drooniolio \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+Droonia ei ole vielä lisätty 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+\hyperlink{class_drooni}{Drooni} on lisätty peliin. Poikkeustakuu\-: perus 
+\end{DoxyPostcond}
+\hypertarget{class_peli_ikkuna_abee8a20d0f7aa0efbaed03c65238fcab}{\index{Peli\-Ikkuna@{Peli\-Ikkuna}!nayta\-Toplista@{nayta\-Toplista}}
+\index{nayta\-Toplista@{nayta\-Toplista}!PeliIkkuna@{Peli\-Ikkuna}}
+\subsubsection[{nayta\-Toplista}]{\setlength{\rightskip}{0pt plus 5cm}void Peli\-Ikkuna\-::nayta\-Toplista (
+\begin{DoxyParamCaption}
+\item[{std\-::vector$<$ Q\-String $>$}]{huipputulokset}
+\end{DoxyParamCaption}
+)}}\label{class_peli_ikkuna_abee8a20d0f7aa0efbaed03c65238fcab}
+
+
+nayta\-Toplista Näyttää peliruudulla tämänhetkisen top10 tilanteen. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em huipputulokset} & Vektori top10 tilastosta. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+Top10 listaa ei ole vielä esitetty 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+Top10 lista näkyy peliruudulla. Poikkeustakuu\-: perus 
+\end{DoxyPostcond}
+\hypertarget{class_peli_ikkuna_aa3943ae9a2c3bd2109deab2b4f9c0c2a}{\index{Peli\-Ikkuna@{Peli\-Ikkuna}!Paivita\-Tulokset@{Paivita\-Tulokset}}
+\index{Paivita\-Tulokset@{Paivita\-Tulokset}!PeliIkkuna@{Peli\-Ikkuna}}
+\subsubsection[{Paivita\-Tulokset}]{\setlength{\rightskip}{0pt plus 5cm}void Peli\-Ikkuna\-::\-Paivita\-Tulokset (
+\begin{DoxyParamCaption}
+\item[{std\-::vector$<$ int $>$}]{tulokset}
+\end{DoxyParamCaption}
+)}}\label{class_peli_ikkuna_aa3943ae9a2c3bd2109deab2b4f9c0c2a}
+
+
+Paivita\-Tulokset Päivittää peliruudulla näytettävät tilastotiedot. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em tulokset} & Vektori jossa päivitettävät tilastotiedot. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+-\/ 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+Tulokset on päivitetty. Poikkeustakuu\-: perus 
+\end{DoxyPostcond}
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{peliikkuna_8hh}{peliikkuna.\-hh}\item 
+peliikkuna.\-cpp\end{DoxyCompactItemize}
